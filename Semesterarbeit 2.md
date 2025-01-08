@@ -12,6 +12,22 @@ Der erste Schritt ist der Evaluation der Ticketsysteme gewidmet.
 Das Ticketsystem soll Funktionen beinhalten, welche im Alltäglichen Support sowie im ITIL-Prozess Grundlegend sind ***(Erstellen von Tickets / Incidents, Mailverkehr, Unterteilung von Agenten, Priorisierung von Incidents)***
 Zudem muss das Ticket System die Möglichkeit bieten, es auf eigener Infrastruktur zu hosten.
 So kann ich das System mit SEUSAG klar eingrenzen.
+
+#### 1.2.1 Evaluation der Ticketsysteme
+
+Nach Suche in gängigen Suchmaschinen und Online-Plattformen sowie Wissensaustausch mit Klassenkameraden bin ich auf folgende Freeware Lösungen gestossen:
+##### OS TICKET
+....
+
+##### OTRS
+....
+
+##### FREESCOUT
+***FreeScout*** ist eine kostenfreies und open source helpdesk-Lösung welche auf PHP basiert. Freescout beinhaltet Shared Mailbox Funktionen.
+
+
+
+
 ### Planen
 Geplant wir anhand Arbeitspaketen, welche in den jeweiligen Sprint-Phasen ausgeführt werden.
 
@@ -20,6 +36,16 @@ Um die Übersicht zu behalten, werden diese Phasen sowie die Arbeitspakete in ei
 .............................................
 ...........................................
 ...............................................
+
+#### Arbeits Pakete
+
+...
+
+#### Sprint-Phasen
+...
+
+#### Gantt-Diagramm
+...
 
 ### Entscheiden
 Entscheiden muss ich mich anhand folgenden Kriterien:
@@ -31,7 +57,14 @@ Entscheiden muss ich mich anhand folgenden Kriterien:
 -
 -
 ### Realisieren
+
 Um Das Projekt zu realisieren wird eine Virtuelle Maschine (Virtueller Server) aufgesetzt. Diese Virtuelle Maschine simuliert eine Betriebsrelevante Maschine welche ohne Downtime aktiv bleibt.
+#### SEUSAG Übersicht
+.....
+
+
+##### SEUSAG - Beschreibung
+
 ### Kontrollieren
 Um meine Umgebung zu testen, wird der Server manuell heruntergefahren.
 Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgelöst werden welches im ausgewählten Ticketsystem erscheinen muss.
