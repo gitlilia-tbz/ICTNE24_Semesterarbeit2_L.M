@@ -9,9 +9,11 @@
 ## 1.1 Beschreibung
 ![](./_attachments/2_itsm.png)
 ![](./_attachments/1_Docker_Grafik.png)
-## :round_pushpin: Topics:
--  :computer: ITSM 
-- :paperclip: PRJ (Projektmanagement)
+
+| :round_pushpin: Topics:               |
+| ------------------------------------- |
+| -  :computer: ITSM                    |
+| - :paperclip: PRJ (Projektmanagement) |
 
 Diese Semesterarbeit beinhaltet eine Evaluation von mind. 2 Ticketsystemen, wodurch das ausgewählte Ticketsystem anschliessend selbst gehostet wird und dessen Benutzerzugänge gesichert werden. Ein Server ausserhalb des Ticketsystems wird durch ein Monitoring überwacht und bei einem allfälligem Absturz durch einen automatischen generierten Incident innerhalb des Ticketsystems vermerkt. Hierbei möchte ich eine Kundenumgebung simulieren und die Theorie aus dem ITSM Modul in die Praxis umsetzen ***(Simulation einer ITSM Kundenumgebung und Testing der Lösung)
 
@@ -20,12 +22,12 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 
 ***Die vollständige Lösung sollte kostenfrei und Benutzerfreundlich sein sowie Kompatibilität mit meiner skalierbaren Umgebung bieten.
 
-## :checkered_flag: Ziele
-- Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen 
 
-- Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein. 
-
-- Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden
+| :checkered_flag: Ziele                                                                                 |
+| ------------------------------------------------------------------------------------------------------ |
+| Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen                                  |
+| - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  |
+| - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden                |
 
 ## :link: Links / Verweise:
 
