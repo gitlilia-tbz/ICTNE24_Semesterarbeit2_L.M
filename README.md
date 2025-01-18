@@ -1,6 +1,4 @@
-# ICTNE24_Semesterarbeit2_L.M
-ICTNE24_Semesterarbeit2_L.M
-
+# 1. Einführung
 # :page_with_curl: Semesterarbeit 2
 
 | :ticket: Titel:                   | Self-Hosted ITSM mit Systemüberwachung via automatischer Tickets |
@@ -8,7 +6,6 @@ ICTNE24_Semesterarbeit2_L.M
 | :bust_in_silhouette: Studierende: | Lilia Mechani                                                    |
 | :busts_in_silhouette: Dozenten:   | (PRJ) Philipp Rohr (ITSM) Ceasar Roth                            |
 
-# 1. Einführung
 ## 1.1 Beschreibung
 ![](2_itsm.png)
 ![](1_Docker_Grafik.png)
