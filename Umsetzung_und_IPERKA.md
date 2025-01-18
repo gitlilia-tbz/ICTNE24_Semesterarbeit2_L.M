@@ -1,13 +1,16 @@
 ## 1.2 IPERKA
 
-### $\color{red}{\textsf{Arbeitspaket 1: Informieren}}$
- Zuerst habe ich mich der Machbarkeit dieses Projektes gewidment.
 
-testtesttest
+### $\color{red}{\textsf{Arbeitspaket 1}}$
 
+| $\color{red}{\textsf{Arbeitspaket 1: Informieren}}$                              |
+| -------------------------------------------------------------------------------- |
+| Brainstorming/Online-Suche, Auswahl-Kriterien Definieren, Evaluation durchführen |
 
+#### :mag: Brainstorming/Online-Suche
 
-Der erste Schritt ist der Evaluation der Ticketsysteme gewidmet; sowie die Abklärung in Sachen
+Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen beinhalten.
+
 
 - Monitoringkompatibilität und einfache Integration der Monitoring-Funktionalitäten
 - *****Scalability /  Orchestrierung
@@ -24,14 +27,38 @@ So kann ich das System mit SEUSAG klar eingrenzen.
 #### 1.2.1 Evaluation der Ticketsysteme
 
 Nach Suche in gängigen Suchmaschinen und Online-Plattformen sowie Wissensaustausch mit Klassenkameraden bin ich auf folgende Freeware Lösungen gestossen:
-##### Zammad
-....
+Hier ist die kompakte Vergleichsübersicht der drei Ticketsysteme:
 
-##### OTRS
-....
+| System | ITSM-Funktion | Kernfunktionen | Level |
+|--------|---------------|----------------|--------|
+| ZAMMAD | Incident Management | Tickets, SLAs, Workflows, Multi-Channel | Vollständig |
+|| Change Management | Change-Tickets, Genehmigungen, Risikofelder | Vollständig |
+|| Problem Management | Problem-Tickets, Incident-Linking, RCA | Vollständig |
+|| Knowledge Management | KB, Kategorien, Suche, Versionen | Vollständig |
+|| IT Asset Management | Asset-Tracking, Linking, Custom Fields | Grundlegend |
+|| Service Desk | Multi-Channel, Portal, Routing, Tools | Vollständig |
+|| Service Catalog | Request-Forms, Kategorien, Portal | Grundlegend |
+|--------|---------------|----------------|--------|
+| OTRS | Incident Management | ITIL-konform, SLAs, Multi-Channel | Vollständig |
+|| Change Management | CAB, Workflows, Genehmigungen | Vollständig |
+|| Problem Management | RCA, KEDB, Trendanalyse | Vollständig |
+|| Knowledge Management | CMDB-Integration, FAQ, Volltext | Vollständig |
+|| IT Asset Management | CMDB, CI-Tracking, Lifecycle | Vollständig |
+|| Service Desk | Multi-Channel, Portal, Reporting | Vollständig |
+|| Service Catalog | Designer, SLA-Mgmt, Automatisierung | Vollständig |
+|--------|---------------|----------------|--------|
+| FREESCOUT | Incident Management | Basis-Ticketing, E-Mail, Prioritäten | Grundlegend |
+|| Change Management | Manuelle Verfolgung, Kategorien | Eingeschränkt |
+|| Problem Management | Ticket-Linking, Dokumentation | Eingeschränkt |
+|| Knowledge Management | Basis-KB, Suche | Grundlegend |
+|| IT Asset Management | Keine native Funktion | Minimal |
+|| Service Desk | E-Mail-Support, Basis-Routing | Grundlegend |
+|| Service Catalog | Keine native Funktion | Minimal |
 
-##### FREESCOUT
-***FreeScout*** ist eine kostenfreies und open source helpdesk-Lösung welche auf PHP basiert. Freescout beinhaltet Shared Mailbox Funktionen.
+Fazit:
+- OTRS: Enterprise-Level, vollständige ITIL/ITSM-Funktionen
+- ZAMMAD: Mittelweg, gute ITSM-Basics, moderne UI
+- FREESCOUT: Einfach, fokussiert auf E-Mail-Support
 
 | Kriterien                             | ***OS Ticket*** | ***OTRS*** | ***FREESCOUT*** |
 | ------------------------------------- | --------------- | ---------- | --------------- |
