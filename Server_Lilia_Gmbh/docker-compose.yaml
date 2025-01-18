@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  ubuntu-server:
+    image: zabbix/zabbix-agent:ubuntu-6.4-latest
+    container_name: ubuntu-server
+    hostname: ubuntu-server
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "10055:10050"
+    environment:
+      - ZBX_HOSTNAME=ubuntu-server
+      - ZBX_SERVER_HOST=zabbix-server
+      - ZBX_SERVER_PORT=10051
+      - ZBX_PASSIVE_ALLOW=true
+      - ZBX_ACTIVE_ALLOW=true
+      - ZBX_DEBUGLEVEL=4
+    networks:
+      - zabbix-net
+
+networks:
+  zabbix-net:
+    external: true
+    name: zabbix_server_70_zabbix-net
