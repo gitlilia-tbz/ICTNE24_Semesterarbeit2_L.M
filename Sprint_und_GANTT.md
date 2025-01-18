@@ -1,3 +1,10 @@
+###Sprint-Zeitplan
+
+| Sprint-Phase 1                                                      | Sprint-Phase 2                                                                                       | Sprint-Phase 3                                      |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| (28.10.24 - 22.11.24) (Abbruch des Prozess aufgrund Projektwechsel) | Sprint 2 (22.11.24 - 13.12.24)                                                                       | (13.12.24 - 27.1.25)                                |
+| (Abbruch des Prozess aufgrund Projektwechsel)                       | Neu-Konzeption des Projektes, Auswahl der Technischen Mittel, Vorbereitung der Dokumentationssmittel | Technische Umsetzung und schriftliche Dokumentation |
+
 ### GANTT-Diagramm
 
 ```mermaid
