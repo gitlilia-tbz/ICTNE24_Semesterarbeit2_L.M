@@ -1,9 +1,9 @@
 # :page_with_curl: Semesterarbeit 2
 
-| :ticket: Titel                   | Self-Hosted ITSM mit Systemüberwachung via automatischer Tickets |
-| -------------------------------- | ---------------------------------------------------------------- |
-| :bust_in_silhouette: Studierende | Studierende: Lilia Mechani                                       |
-| :busts_in_silhouette: Dozenten   | Dozenten: (PRJ) Philipp Rohr (ITSM) Ceasar Roth                  |
+| :ticket: Titel:                   | Self-Hosted ITSM mit Systemüberwachung via automatischer Tickets |
+| --------------------------------- | ---------------------------------------------------------------- |
+| :bust_in_silhouette: Studierende: | Lilia Mechani                                                    |
+| :busts_in_silhouette: Dozenten:   | (PRJ) Philipp Rohr (ITSM) Ceasar Roth                            |
 
 # 1. Einführung
 ## 1.1 Beschreibung
