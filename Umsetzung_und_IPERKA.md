@@ -26,39 +26,47 @@ So kann ich das System mit SEUSAG klar eingrenzen.
 
 #### 1.2.1 Evaluation der Ticketsysteme
 
-Nach Suche in gängigen Suchmaschinen und Online-Plattformen sowie Wissensaustausch mit Klassenkameraden bin ich auf folgende Freeware Lösungen gestossen:
-Hier ist die kompakte Vergleichsübersicht der drei Ticketsysteme:
+Diese Evaluation stützt sich auf die Grundlegenden Elemente der ITIL V4 ITSM Struktur.
+![](3_ITSM_Grundlagen.png)
 
-| System | ITSM-Funktion | Kernfunktionen | Level |
-|--------|---------------|----------------|--------|
-| ZAMMAD | Incident Management | Tickets, SLAs, Workflows, Multi-Channel | Vollständig |
-|| Change Management | Change-Tickets, Genehmigungen, Risikofelder | Vollständig |
-|| Problem Management | Problem-Tickets, Incident-Linking, RCA | Vollständig |
-|| Knowledge Management | KB, Kategorien, Suche, Versionen | Vollständig |
-|| IT Asset Management | Asset-Tracking, Linking, Custom Fields | Grundlegend |
-|| Service Desk | Multi-Channel, Portal, Routing, Tools | Vollständig |
-|| Service Catalog | Request-Forms, Kategorien, Portal | Grundlegend |
-|--------|---------------|----------------|--------|
-| OTRS | Incident Management | ITIL-konform, SLAs, Multi-Channel | Vollständig |
-|| Change Management | CAB, Workflows, Genehmigungen | Vollständig |
-|| Problem Management | RCA, KEDB, Trendanalyse | Vollständig |
-|| Knowledge Management | CMDB-Integration, FAQ, Volltext | Vollständig |
-|| IT Asset Management | CMDB, CI-Tracking, Lifecycle | Vollständig |
-|| Service Desk | Multi-Channel, Portal, Reporting | Vollständig |
-|| Service Catalog | Designer, SLA-Mgmt, Automatisierung | Vollständig |
-|--------|---------------|----------------|--------|
-| FREESCOUT | Incident Management | Basis-Ticketing, E-Mail, Prioritäten | Grundlegend |
-|| Change Management | Manuelle Verfolgung, Kategorien | Eingeschränkt |
-|| Problem Management | Ticket-Linking, Dokumentation | Eingeschränkt |
-|| Knowledge Management | Basis-KB, Suche | Grundlegend |
-|| IT Asset Management | Keine native Funktion | Minimal |
-|| Service Desk | E-Mail-Support, Basis-Routing | Grundlegend |
-|| Service Catalog | Keine native Funktion | Minimal |
+| 🤖 Disclamer: Diese Evaluation wurde durch Claude-AI gestützt |
+| ------------------------------------------------------------- |
+
+| System    | ITSM-Funktion              | Kernfunktionen                              | Level         |
+| --------- | -------------------------- | ------------------------------------------- | ------------- |
+| ZAMMAD    | Incident Management        | Tickets, SLAs, Workflows, Multi-Channel     | Vollständig   |
+|           | Change Management          | Change-Tickets, Genehmigungen, Risikofelder | Vollständig   |
+|           | Problem Management         | Problem-Tickets, Incident-Linking, RCA      | Vollständig   |
+|           | Knowledge Management       | KB, Kategorien, Suche, Versionen            | Vollständig   |
+|           | IT Asset Management        | Asset-Tracking, Linking, Custom Fields      | Grundlegend   |
+|           | Service Desk               | Multi-Channel, Portal, Routing, Tools       | Vollständig   |
+|           | Service Catalog            | Request-Forms, Kategorien, Portal           | Grundlegend   |
+|           | Service Request Management | Formulare, Workflows, Genehmigungen         | Grundlegend   |
+| OTRS      | Incident Management        | ITIL-konform, SLAs, Multi-Channel           | Vollständig   |
+|           | Change Management          | CAB, Workflows, Genehmigungen               | Vollständig   |
+|           | Problem Management         | RCA, KEDB, Trendanalyse                     | Vollständig   |
+|           | Knowledge Management       | CMDB-Integration, FAQ, Volltext             | Vollständig   |
+|           | IT Asset Management        | CMDB, CI-Tracking, Lifecycle                | Vollständig   |
+|           | Service Desk               | Multi-Channel, Portal, Reporting            | Vollständig   |
+|           | Service Catalog            | Designer, SLA-Mgmt, Automatisierung         | Vollständig   |
+|           | Service Request Management | Vollautomatisiert, Templates, Prozesse      | Vollständig   |
+| FREESCOUT | Incident Management        | Basis-Ticketing, E-Mail, Prioritäten        | Grundlegend   |
+|           | Change Management          | Manuelle Verfolgung, Kategorien             | Eingeschränkt |
+|           | Problem Management         | Ticket-Linking, Dokumentation               | Eingeschränkt |
+|           | Knowledge Management       | Basis-KB, Suche                             | Grundlegend   |
+|           | IT Asset Management        | Keine native Funktion                       | Minimal       |
+|           | Service Desk               | E-Mail-Support, Basis-Routing               | Grundlegend   |
+|           | Service Catalog            | Keine native Funktion                       | Minimal       |
+|           | Service Request Management | Basis E-Mail Anfragen                       | Minimal       |
 
 Fazit:
-- OTRS: Enterprise-Level, vollständige ITIL/ITSM-Funktionen
+- OTRS: Enterprise-Level, vollständige ITIL/ITSM-Funktionen.
+:heavy_minus_sign:Nachteile:
+Etwas komplexere Struktur, weniger Benutzerfreundlich
 - ZAMMAD: Mittelweg, gute ITSM-Basics, moderne UI
+:heavy_minus_sign:Nachteile: Im Vergleich zu OTRS weniger Vollständige Funktionsabdeckung
 - FREESCOUT: Einfach, fokussiert auf E-Mail-Support
+:heavy_minus_sign:Nachteile: Zu simpel, fehlende Funktionen. Nur grundlegender Email-Support
 
 | Kriterien                             | ***OS Ticket*** | ***OTRS*** | ***FREESCOUT*** |
 | ------------------------------------- | --------------- | ---------- | --------------- |
