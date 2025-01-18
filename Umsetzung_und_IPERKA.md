@@ -61,12 +61,18 @@ Diese Evaluation stützt sich auf die Grundlegenden Elemente der ITIL V4 ITSM St
 
 Fazit:
 - OTRS: Enterprise-Level, vollständige ITIL/ITSM-Funktionen.
+
 :small_red_triangle: Nachteile:
 Etwas komplexere Struktur, weniger Benutzerfreundlich
+
 - ZAMMAD: Mittelweg, gute ITSM-Basics, moderne UI
+
 :small_red_triangle: Nachteile: Im Vergleich zu OTRS weniger Vollständige Funktionsabdeckung
+
 - FREESCOUT: Einfach, fokussiert auf E-Mail-Support
-:small_red_triangle: Nachteile: Zu simpel, fehlende Funktionen. Nur grundlegender Email-Support
+
+:small_red_triangle: Nachteile: Zu simpel, fehlende Funktionen. Nur 
+grundlegender Email-Support
 
 | Kriterien                             | ***OS Ticket*** | ***OTRS*** | ***FREESCOUT*** |
 | ------------------------------------- | --------------- | ---------- | --------------- |
