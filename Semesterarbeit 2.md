@@ -1,7 +1,7 @@
 # 1. Einführung
 ## 1.1 Beschreibung
-![itsm.png](itsm.png)
-![Docker\_Grafik.png](Docker_Grafik.png)
+![[itsm.png]]
+![[Docker_Grafik.png]]
 Diese Semesterarbeit beinhaltet eine Evaluation von mind. 2 Ticketsystemen, wodurch das ausgewählte Ticketsystem anschliessend selbst gehostet wird und dessen Benutzerzugänge gesichert werden. Ein Server ausserhalb des Ticketsystems wird durch ein Monitoring überwacht und bei einem allfälligem Absturz durch einen automatischen generierten Incident innerhalb des Ticketsystems vermerkt. Hierbei möchte ich eine Kundenumgebung simulieren und die Theorie aus dem ITSM Modul in die Praxis umsetzen (Simulation einer ITSM Kundenumgebung und Testing der Lösung)
 
 Hierbei möchte ich 
