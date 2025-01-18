@@ -1,3 +1,4 @@
+:ticket: Self-Hosted ITSM mit Systemüberwachung via automatischer Tickets
 # 1. Einführung
 ## 1.1 Beschreibung
 ![](./_attachments/2_itsm.png)
@@ -9,8 +10,24 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 
 Die vollständige Lösung sollte kostenfrei und Benutzerfreundlich sein sowie Kompatibilität mit meiner skalierbaren Umgebung bieten.
 
+## :checkered_flag: Ziele
+- Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen 
+
+- Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein. 
+
+- Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden
+
 ## :link: Links / Verweise:
 
+Codebase des Projektes
+
+Quellen und Disclamer
+
+Reflexion
+
+Sprint und Gantt
+
+Bilder
 
 
 ## 1.2 IPERKA
