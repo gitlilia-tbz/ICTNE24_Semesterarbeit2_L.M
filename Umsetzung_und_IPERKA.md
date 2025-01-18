@@ -74,13 +74,18 @@ Etwas komplexere Struktur, weniger Benutzerfreundlich
 :small_red_triangle: Nachteile: Zu simpel, fehlende Funktionen. Nur 
 grundlegender Email-Support
 
-| Kriterien                             | ***OS Ticket*** | ***OTRS*** | ***FREESCOUT*** |
-| ------------------------------------- | --------------- | ---------- | --------------- |
-| Docker-Kompatibel (Containerisierung) |                 |            |                 |
-| Unterteilung von Agenten              |                 |            |                 |
-| Workflows                             |                 |            |                 |
-| API-Funktionalität                    |                 |            |                 |
 
+| Kriterien | ZAMMAD | OTRS | FREESCOUT |
+|-----------|--------|------|-----------|
+| Docker-Kompatibilität | ✓ | ± | ± |
+| Agenten-Unterteilung | ✓ | ✓ | ± |
+| Workflows | ✓ | ✓ | ± |
+| API-Funktionalität | ✓ | ✓ | - |
+
+Legende:
+- ✓ Vollständig/Gut
+- ± Grundlegend/Eingeschränkt
+- - Minimal/Nicht vorhanden
 
 
 
