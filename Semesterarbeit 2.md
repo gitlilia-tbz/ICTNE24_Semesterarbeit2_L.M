@@ -9,6 +9,10 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 
 Die vollständige Lösung sollte kostenfrei und Benutzerfreundlich sein sowie Kompatibilität mit meiner skalierbaren Umgebung bieten.
 
+## :link: Links / Verweise:
+
+
+
 ## 1.2 IPERKA
 
 ### $\color{red}{\textsf{Arbeitspaket 1: Informieren}}$
