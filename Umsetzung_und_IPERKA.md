@@ -3,8 +3,7 @@
 ### $\color{red}{\textsf{Arbeitspaket 1: Informieren}}$
  Zuerst habe ich mich der Machbarkeit dieses Projektes gewidment.
 
-Urs
-
+testtesttest
 
 
 
