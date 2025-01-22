@@ -5,7 +5,10 @@ Technische Umsetzung:
 
 Die Docker-Compose files beschreiben sich praktisch selbst.
 Eines der wichtigsten Elemente im Compose-File der Zabbix installation ist die definition von **Networks.** Dabei wird das Netzwerk für die Docker-Umgebung definiert. 
-
+	    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.4
+        
 Alle Docker-Compose Files richten sich nach der Netzwerk-Information, welche im **YAML** des Zabbix Server definiert ist.
 
 	Damit Zabbix auch vollständige Funktionstüchtigkeit hat,muss das Dockercompose Container für nginx, Agent, Server und mysql Datenbank erstellen.
@@ -103,8 +106,10 @@ volumes:
     driver: local
 
 ```
-
-- Docker Compose Ubuntu Server
+___
+	Im Docker-Compose File des Ubuntu Server wird die Zugehörigkeit zum zabbix-net Netzwerk beschrieben. Zudem wird ein Zabbix-Agent installiert. Der Zabbix Agent dient zur Verbindung zum Zabbix Server.
+	
+- ***Docker Compose Ubuntu Server***
 ```yaml
 version: '3.8'
 services:
@@ -131,7 +136,12 @@ networks:
     external: true
     name: zabbix_server_70_zabbix-net
 ```
-- Docker Compose Zammad
+---
+	Das Zammad Docker-Compose File ist das grösste File in diesem Projekt.
+	Für grundlegene Funktionalitäten sowie schnellere Suche innerhalb des Ticketsystems werden verschiedene Container dazuinstalliert.
+	- Elasticsearch dient zu effizienterer Suchfunktion innerhalb des Ticketsystems
+	- Der Scheduler dient zur Kommunikation zu anderen Systemen, welche sich via API mit dem System austauschen. Ohne den Scheduler Funktioneren Automationen im Ticketsystem via API nicht. Jedoch ist das Ticketsystem auch ohne Scheduler funktionstüchtig.
+- ***Docker Compose Zammad***
 ```yaml
 version: '3.3'
 services:
