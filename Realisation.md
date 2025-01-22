@@ -4,17 +4,30 @@ Technische Umsetzung:
 ## Docker-Composefiles
 
 - Docker Compose Zabbix
+
 - Docker Compose Ubuntu Server
 - Docker Compose Zammad
 
 Compose-Errors beseitigen
 
 ___
-Server OK
+### Server OK
+- Zabbix Agent OK
+![[7_ubuntu_OK.png]]
 
-Monitoring OK
+### Monitoring OK
+![[5_zabbix_OK.png]]
+### Ticketsystem: OK
+![[4_zammad_ok.png]]
+- Websocket: OK
+- nginx: OK
+- Scheduler: Aktiv
+- Zammad-Init: Complete
+- Railsserver: OK
+- Elasticsearch: OK
+- Redis: OK
+- Postgresql: OK
 
-Ticketsystem OK
 ___
 ## Docker-Check
 
@@ -28,15 +41,15 @@ Test-Ubuntu-Server Implementiert
 ___
 ## Connectivity Check
 
-Zabbix->zammad
+Ping Ubuntu -> Zabbix ![[6_ping_server_zu_zabbix.png]]
 
-Zabbix->ubuntu
+Ping Zabbix->zammad
 
-Zammad->Zabbix
+Ping Zabbix->ubuntu
 
-Zammad->ubuntu
+Ping Zammad->Zabbix
 
-Ubuntu->zabbix
+Ping Zammad->ubuntu
 ___
 ## Alerting via Webhook zu Zammad
 
