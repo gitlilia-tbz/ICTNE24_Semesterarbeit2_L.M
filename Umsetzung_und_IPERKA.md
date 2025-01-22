@@ -40,7 +40,7 @@ Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspa
 
 LINK ZU SPRINT UND GANNT
 ___
-### $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$
+### $\color{yellow}{\textsf{Entscheiden}}$
 
 | $\color{yellow}{\textsf{Arbeitspaket 3: Entscheiden}}$ - Welcher Lösungsweg wird eingeschlagen? |
 | ----------------------------------------------------------------------------------------------- |
@@ -54,7 +54,7 @@ Für eine Plattform welche dem Lehrgang gerecht ist und höchste Flexibilität z
 Für die Rasche
 
 ___
-### $\color{lime}{\textsf{ Arbeitspaket 4: Realisieren}}$ 
+### $\color{lime}{\textsf{Realisieren}}$ 
 
 | $\color{lime}{\textsf{Arbeitspaket 4: Realisieren}}$ - Worauf muss bei der Umsetzung geachtet werden? |
 | ----------------------------------------------------------------------------------------------------- |
@@ -71,7 +71,7 @@ Die Realisierung des Projektes
 
 ___
 
-### $\color{cyan}{\textsf{ Arbeitspaket 5: Kontrollieren}}$
+### $\color{cyan}{\textsf{Kontrollieren}}$
 | $\color{cyan}{\textsf{Arbeitspaket 5: Kontrollieren}}$ - Wurde der Auftrag korrekt umgesetzt?  |
 | ---------------------------------------------------------------------------------------------- |
 | Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung |
@@ -80,7 +80,7 @@ Um meine Umgebung zu testen, wird der Server via Docker heruntergefahren.
 Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgelöst werden durch den Zabbix / Zendesk Webhook.
 
 Dieses Ticket kann einen Text beinhalten welches die nötigsten Informationen zum betroffenen System beinhaltet um anhand den Informationen allfällig Troubleshooting betreiben kann.
-### $\color{purple}{\textsf{ Arbeitspaket 6: Auswerten}}$ 
+### $\color{purple}{\textsf{Auswerten}}$ 
 | $\color{Purple}{\textsf{Arbeitspaket 6: Auswerten}}$ - Was gelang gut, was weniger? |
 | ----------------------------------------------------------------------------------- |
 | Reflexion und Fazit                                                                 |
