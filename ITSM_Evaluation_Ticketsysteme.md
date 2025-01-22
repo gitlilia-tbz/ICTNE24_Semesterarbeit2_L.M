@@ -33,6 +33,8 @@ Diese Evaluation stützt sich auf die Grundlegenden Elemente der ITIL V4 ITSM St
 |           | Service Desk               | E-Mail-Support, Basis-Routing               | Grundlegend   |
 |           | Service Catalog            | Keine native Funktion                       | Minimal       |
 |           | Service Request Management | Basis E-Mail Anfragen                       | Minimal       |
+
+
 Fazit:
 - OTRS: Enterprise-Level, vollständige ITIL/ITSM-Funktionen.
 
@@ -63,5 +65,5 @@ Legende:
 
 	Anhand dieser Evaluation ist der Favorit: *Zammad Ticketing System*
 
-		Um meine Evaluation in der Praxis zu stützen, habe ich mit Unterstützung von Claude AI Docker-Compose Files der verschiedenen Lösungen erstellt. Dies sind meine Resultate:
+		Um meine Evaluation in der Praxis zu stützen, habe ich mit Unterstützung von Claude AI Docker-Compose Files der verschiedenen Lösungen erstellt. Diese werden im $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$ getestet.
 
