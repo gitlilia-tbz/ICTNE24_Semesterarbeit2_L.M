@@ -20,6 +20,7 @@ Das Ticketsystem soll Funktionen beinhalten, welche im Alltäglichen Support sow
 Zudem muss das Ticket System die Möglichkeit bieten, es auf eigener Infrastruktur zu hosten.
 So kann ich das System mit SEUSAG klar eingrenzen.
 
+______
 
 ### $\color{orange}{\textsf{Planen}}$
 
@@ -38,6 +39,7 @@ Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspa
 | [ITSM Evaluation der Ticketsysteme](./ITSM_Evaluation_Ticketsysteme) |
 
 LINK ZU SPRINT UND GANNT
+___
 ### $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$
 
 | $\color{yellow}{\textsf{Arbeitspaket 3: Entscheiden}}$ - Welcher Lösungsweg wird eingeschlagen? |
@@ -51,6 +53,7 @@ Für eine Plattform welche dem Lehrgang gerecht ist und höchste Flexibilität z
 - Zendesk Helpdesk
 Für die Rasche
 
+___
 ### $\color{lime}{\textsf{ Arbeitspaket 4: Realisieren}}$ 
 
 | $\color{lime}{\textsf{Arbeitspaket 4: Realisieren}}$ - Worauf muss bei der Umsetzung geachtet werden? |
@@ -66,6 +69,8 @@ Die Realisierung des Projektes
 
 ##### SEUSAG - Beschreibung
 
+___
+
 ### $\color{cyan}{\textsf{ Arbeitspaket 5: Kontrollieren}}$
 | $\color{cyan}{\textsf{Arbeitspaket 5: Kontrollieren}}$ - Wurde der Auftrag korrekt umgesetzt?  |
 | ---------------------------------------------------------------------------------------------- |
@@ -80,3 +85,4 @@ Dieses Ticket kann einen Text beinhalten welches die nötigsten Informationen zu
 | ----------------------------------------------------------------------------------- |
 | Reflexion und Fazit                                                                 |
 [Reflexion](./Reflexion)
+___
