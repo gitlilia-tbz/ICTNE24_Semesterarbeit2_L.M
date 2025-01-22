@@ -1,4 +1,4 @@
-# 1. Einführung
+# Einführung / README
 # :page_with_curl: Semesterarbeit 2
 
 | :ticket: Titel:                   | Self-Hosted ITSM mit Systemüberwachung via automatischer Tickets |

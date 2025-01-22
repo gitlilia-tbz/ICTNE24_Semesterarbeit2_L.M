@@ -1,3 +1,5 @@
+# Sprint und GANTT Zeitdiagramm
+ 
  ### :running: Sprint-Zeitplan
 
 | :pushpin: Sprint-Phase 1                      | :pushpin: Sprint-Phase 2                                                                             | :pushpin: Sprint-Phase 3                            |
