@@ -9,7 +9,7 @@
 
 #### :mag: Brainstorming/Online-Suche
 
-Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen beinhalten.
+	Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen beinhalten.
 
 
 - Monitoringkompatibilität und einfache Integration der Monitoring-Funktionalitäten
@@ -24,41 +24,33 @@ Zudem muss das Ticket System die Möglichkeit bieten, es auf eigener Infrastrukt
 
 So kann ich das System mit SEUSAG klar eingrenzen.
 
-	LINK ZUR EVALUATION
+| :pushpin: Link zur Evaluation:                                       |
+| -------------------------------------------------------------------- |
+| [ITSM Evaluation der Ticketsysteme](./ITSM_Evaluation_Ticketsysteme) |
+
 ### $\color{orange}{\textsf{ Arbeitspaket 2: Planen}}$
 
-Geplant wir anhand Arbeitspaketen, welche in den jeweiligen Sprint-Phasen ausgeführt werden.
+| $\color{orange}{\textsf{Arbeitspaket 2: Planen}}$ |
+| ------------------------------------------------- |
+| Arbeitspakete definieren, SPRINT und GANTT        |
+
+Geplant wird anhand der definierten Arbeitspakete, welche in den jeweiligen Sprint-Phasen ausgeführt werden.
 
 Um die Übersicht zu behalten, werden diese Phasen sowie die Arbeitspakete in einem ***Gantt-Diagramm*** festgehalten.
 
-.............................................
-...........................................
-...............................................
-
-#### Arbeits Pakete
-
-...
-
-#### Sprint-Phasen
-...
-
-#### Gantt-Diagramm
-...
-
+LINK ZU SPRINT UND GANNT
 ### ### $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$
 
--
-Nach Tests innerhalb meiner Docker-Umgebung habe ich mich für folgende Lösung entschieden
+| $\color{yellow}{\textsf{Arbeitspaket 3: Entscheiden}}$                                         |
+| ---------------------------------------------------------------------------------------------- |
+| Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung |
+Nach Tests innerhalb meiner Docker-Umgebung habe ich mich definitiv für folgende Lösung entschieden
 - Zabbix Monitoring 
 Kandidaten welche ausgeschieden wurden waren PRTG sowie Service-NOW
 - Docker 
 Für eine Plattform welche dem Lehrgang gerecht ist und höchste Flexibilität zur Orchestrierung der Lösung. iAC
 - Zendesk Helpdesk
 Für die Rasche
--
--
--
-
 
 ### $\color{lime}{\textsf{ Arbeitspaket 4: Realisieren}}$ 
 
