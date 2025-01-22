@@ -3,7 +3,14 @@
 Technische Umsetzung:
 ## Docker-Composefiles
 
-- Docker Compose Zabbix
+Die Docker-Compose files beschreiben sich praktisch selbst.
+Eines der wichtigsten Elemente im Compose-File der Zabbix installation ist die definition von **Networks.** Dabei wird das Netzwerk für die Docker-Umgebung definiert. 
+
+Alle Docker-Compose Files richten sich nach der Netzwerk-Information, welche im **YAML** des Zabbix Server definiert ist.
+
+	Damit Zabbix auch vollständige Funktionstüchtigkeit hat,muss das Dockercompose Container für nginx, Agent, Server und mysql Datenbank erstellen.
+	
+- ***Docker Compose Zabbix***
 ```yaml
 version: '3.8'
 
@@ -270,6 +277,10 @@ ___
 
 ### Monitoring OK
 ![[5_zabbix_OK.png]]
+nginx: OK
+Agent: OK
+Server: OK
+mysql Datenbank: ok
 ### Ticketsystem: OK
 ![[4_zammad_ok.png]]
 - Websocket: OK
