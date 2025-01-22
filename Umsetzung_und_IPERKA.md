@@ -1,6 +1,5 @@
 ## 1.2 IPERKA
 
-
 ### $\color{red}{\textsf{Arbeitspaket 1}}$
 
 | $\color{red}{\textsf{Arbeitspaket 1: Informieren}}$                              |
@@ -13,15 +12,12 @@
 
 
 - Monitoringkompatibilität und einfache Integration der Monitoring-Funktionalitäten
-- *****Scalability /  Orchestrierung
+- Orchestrierung (Dabei ist die Kompatibilität mit Docker-Compose wichtig)
 - Ticketing-Funktionalität
 - Kostenloser Zugriff / Freie Lizenz
 
-
-Das Ticketsystem soll Funktionen beinhalten, welche im Alltäglichen Support sowie im ITIL-Prozess Grundlegend sind ***(Erstellen von Tickets / Incidents, Mailverkehr, Unterteilung von Agenten, Priorisierung von Incidents)***
+Das Ticketsystem soll Funktionen beinhalten, welche im Alltäglichen Support sowie im ITIL-Prozess Grundlegend sind.
 Zudem muss das Ticket System die Möglichkeit bieten, es auf eigener Infrastruktur zu hosten.
-
-
 So kann ich das System mit SEUSAG klar eingrenzen.
 
 | :pushpin: Link zur Evaluation:                                       |
