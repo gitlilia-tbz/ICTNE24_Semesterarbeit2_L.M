@@ -26,13 +26,12 @@ So kann ich das System mit SEUSAG klar eingrenzen.
 | $\color{orange}{\textsf{Arbeitspaket 2: Planen}}$ - Welche Lösungsmöglichkeiten sind vorhanden?           |
 | --------------------------------------------------------------------------------------------------------- |
 | Evaluation mit den Prüfkriterien aufbauen, Testing definieren, Risiken abschätzen sowie Zeitliche Planung |
-- Arbeitspakete definieren
 - [SPRINT-GANTT und SEUSAG](.Sprint_und_GANTT)
+- Risikodefinition
 
 Geplant wird anhand der definierten Arbeitspakete, welche in den jeweiligen Sprint-Phasen ausgeführt werden und in der Umsetzung beschrieben sind.
 
 Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspakete in einem ***Gantt-Diagramm*** festgehalten.
-Um die 
 
 | :pushpin: Link zur Evaluation:                                       |
 | -------------------------------------------------------------------- |
@@ -79,8 +78,5 @@ Dieses Ticket kann einen Text beinhalten welches die nötigsten Informationen zu
 ### $\color{purple}{\textsf{ Arbeitspaket 6: Auswerten}}$ 
 | $\color{Purple}{\textsf{Arbeitspaket 6: Auswerten}}$ - Was gelang gut, was weniger? |
 | ----------------------------------------------------------------------------------- |
-| Arbeitspakete definieren, SPRINT und GANTT sowie SEUSAG-Skizze                      |
-Die Auswertung findet mit dem Resultat des K im IPERKA (Kontrollieren) statt.
-Wenn das Ticket die korrekte Information wiedergibt und unmittelbar nach der Downtime des Servers generiert wird und auf dem Dashboard der Ticketsystems erscheint, gilt die Auswertung als erfolgreich.
-
+| Reflexion und Fazit                                                                 |
 [Reflexion](./Reflexion)
