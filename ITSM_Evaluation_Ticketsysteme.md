@@ -65,5 +65,5 @@ Legende:
 
 	Anhand dieser Evaluation ist der Favorit: *Zammad Ticketing System*
 
-		Um meine Evaluation in der Praxis zu stützen, habe ich mit Unterstützung von Claude AI Docker-Compose Files der verschiedenen Lösungen erstellt. Diese werden im $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$ getestet.
+Um meine Evaluation in der Praxis zu stützen, habe ich mit Unterstützung von Claude AI Docker-Compose Files der verschiedenen Lösungen erstellt. Diese werden im $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$ getestet.
 
