@@ -1,3 +1,5 @@
+# Quellen und Disclamer
+
 :ticket: ITSM
 - OTRS https://otrs.com/de/otrs-software-loesungen/otrs/
 - ZAMMAD https://zammad.com/de
