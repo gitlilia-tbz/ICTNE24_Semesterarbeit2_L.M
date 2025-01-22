@@ -4,9 +4,262 @@ Technische Umsetzung:
 ## Docker-Composefiles
 
 - Docker Compose Zabbix
+```yaml
+version: '3.8'
+
+services:
+  mysql-server:
+    image: mysql:8.0-oracle
+    container_name: mysql-server
+    command: --character-set-server=utf8 --collation-server=utf8_bin --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: zabbix
+      MYSQL_USER: zabbix
+      MYSQL_PASSWORD: zabbix
+      MYSQL_ROOT_PASSWORD: root_pwd
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.2
+
+  zabbix-server:
+    image: zabbix/zabbix-server-mysql:7.0-ubuntu-latest  # Updated to Zabbix 7.0
+    container_name: zabbix-server
+    environment:
+      DB_SERVER_HOST: mysql-server
+      MYSQL_DATABASE: zabbix
+      MYSQL_USER: zabbix
+      MYSQL_PASSWORD: zabbix
+      MYSQL_ROOT_PASSWORD: root_pwd
+      ZBX_STARTPOLLERS: "5"
+      ZBX_IPMIPOLLERS: "0"
+    ports:
+      - "10051:10051"
+    depends_on:
+      - mysql-server
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.3
+
+  zabbix-web:
+    image: zabbix/zabbix-web-nginx-mysql:7.0-ubuntu-latest  # Updated to Zabbix 7.0
+    container_name: zabbix-web
+    environment:
+      ZBX_SERVER_HOST: zabbix-server
+      DB_SERVER_HOST: mysql-server
+      MYSQL_DATABASE: zabbix
+      MYSQL_USER: zabbix
+      MYSQL_PASSWORD: zabbix
+      MYSQL_ROOT_PASSWORD: root_pwd
+      PHP_TZ: America/New_York
+    ports:
+      - "8082:8080"
+    depends_on:
+      - mysql-server
+      - zabbix-server
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.4
+
+  zabbix-agent:
+    image: zabbix/zabbix-agent:7.0-ubuntu-latest  # Updated to Zabbix 7.0
+    container_name: zabbix-agent
+    privileged: true
+    environment:
+      ZBX_HOSTNAME: "Zabbix server"
+      ZBX_SERVER_HOST: zabbix-server
+      ZBX_SERVER_PORT: 10051
+      ZBX_PASSIVE_ALLOW: true
+      ZBX_ACTIVE_ALLOW: true
+    ports:
+      - "10050:10050"
+    depends_on:
+      - zabbix-server
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.5
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+
+networks:
+  zabbix-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.1
+
+volumes:
+  mysql-data:
+    driver: local
+
+```
 
 - Docker Compose Ubuntu Server
+```yaml
+version: '3.8'
+services:
+  ubuntu-server:
+    image: zabbix/zabbix-agent:ubuntu-6.4-latest
+    container_name: ubuntu-server
+    hostname: ubuntu-server
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "10055:10050"
+    environment:
+      - ZBX_HOSTNAME=ubuntu-server
+      - ZBX_SERVER_HOST=zabbix-server
+      - ZBX_SERVER_PORT=10051
+      - ZBX_PASSIVE_ALLOW=true
+      - ZBX_ACTIVE_ALLOW=true
+      - ZBX_DEBUGLEVEL=4
+    networks:
+      - zabbix-net
+
+networks:
+  zabbix-net:
+    external: true
+    name: zabbix_server_70_zabbix-net
+```
 - Docker Compose Zammad
+```yaml
+version: '3.3'
+services:
+  zammad-postgresql:
+    image: postgres:15.4
+    container_name: zammad-postgresql
+    environment:
+      - POSTGRES_USER=zammad
+      - POSTGRES_PASSWORD=zammad
+      - POSTGRES_DB=zammad
+      - POSTGRES_MAX_CONNECTIONS=100
+      - POSTGRES_SHARED_BUFFERS=256MB
+    command: 
+      - "postgres"
+      - "-c"
+      - "max_connections=100"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - zabbix-net
+
+  zammad-elasticsearch:
+    image: elasticsearch:7.17.9
+    container_name: zammad-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    networks:
+      - zabbix-net
+
+  zammad-redis:
+    image: redis:7.0
+    container_name: zammad-redis
+    command: redis-server --save "" --appendonly no
+    networks:
+      - zabbix-net
+
+  zammad-init:
+    image: zammad/zammad-docker-compose:latest
+    container_name: zammad-init
+    command: ["zammad-init"]
+    depends_on:
+      - zammad-postgresql
+      - zammad-elasticsearch
+      - zammad-redis
+    environment:
+      - POSTGRESQL_HOST=zammad-postgresql
+      - POSTGRESQL_USER=zammad
+      - POSTGRESQL_PASS=zammad
+      - ELASTICSEARCH_HOST=zammad-elasticsearch
+      - ELASTICSEARCH_PORT=9200
+      - REDIS_URL=redis://zammad-redis:6379
+      - ZAMMAD_RAILSSERVER_HOST=zammad-railsserver
+    networks:
+      - zabbix-net
+
+  zammad-railsserver:
+    image: zammad/zammad-docker-compose:latest
+    container_name: zammad-railsserver
+    command: ["zammad-railsserver"]
+    depends_on:
+      - zammad-postgresql
+      - zammad-elasticsearch
+      - zammad-redis
+    environment:
+      - POSTGRESQL_HOST=zammad-postgresql
+      - POSTGRESQL_USER=zammad
+      - POSTGRESQL_PASS=zammad
+      - ELASTICSEARCH_HOST=zammad-elasticsearch
+      - ELASTICSEARCH_PORT=9200
+      - REDIS_URL=redis://zammad-redis:6379
+    networks:
+      - zabbix-net
+
+  zammad-scheduler:
+    image: zammad/zammad-docker-compose:latest
+    container_name: zammad-scheduler
+    command: ["zammad-scheduler"]
+    depends_on:
+      - zammad-railsserver
+    environment:
+      - POSTGRESQL_HOST=zammad-postgresql
+      - POSTGRESQL_USER=zammad
+      - POSTGRESQL_PASS=zammad
+      - POSTGRESQL_OPTIONS=?pool=50
+      - ELASTICSEARCH_HOST=zammad-elasticsearch
+      - ELASTICSEARCH_PORT=9200
+      - REDIS_URL=redis://zammad-redis:6379
+    networks:
+      - zabbix-net
+
+  zammad-websocket:
+    image: zammad/zammad-docker-compose:latest
+    container_name: zammad-websocket
+    command: ["zammad-websocket"]
+    depends_on:
+      - zammad-railsserver
+    environment:
+      - POSTGRESQL_HOST=zammad-postgresql
+      - POSTGRESQL_USER=zammad
+      - POSTGRESQL_PASS=zammad
+      - ELASTICSEARCH_HOST=zammad-elasticsearch
+      - ELASTICSEARCH_PORT=9200
+      - REDIS_URL=redis://zammad-redis:6379
+    networks:
+      - zabbix-net
+
+  zammad-nginx:
+    image: zammad/zammad-docker-compose:latest
+    container_name: zammad-nginx
+    command: ["zammad-nginx"]
+    depends_on:
+      - zammad-railsserver
+    ports:
+      - "8083:8080"
+    environment:
+      - NGINX_SERVER_SCHEME=http
+      - NGINX_SERVER_NAME=localhost
+      - REDIS_URL=redis://zammad-redis:6379
+    networks:
+      - zabbix-net
+
+networks:
+  zabbix-net:
+    external: true
+    name: zabbix_server_70_zabbix-net
+
+volumes:
+  postgres-data:
+  elasticsearch-data:
+
+```
+
 
 Compose-Errors beseitigen
 
