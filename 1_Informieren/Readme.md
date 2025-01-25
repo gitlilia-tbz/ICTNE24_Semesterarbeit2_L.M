@@ -27,13 +27,13 @@ waren ebenfalls Bestandteil meiner Recherche.
 | -  PASSLERS PRTG                                        |
 | - ZABBIX MONITORING                                     |
 
-#### 2. :scroll: Prüfkriterien definieren
+#### :scroll: 2. Prüfkriterien definieren
 
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
 
-#### 3. :wrench: Sachmittel aussuchen
+#### :wrench: 3. Sachmittel aussuchen
 
 Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht.
 ______
