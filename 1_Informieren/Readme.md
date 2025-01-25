@@ -4,7 +4,8 @@
 | --------------------------------------------------------------------------------------- |
 | Brainstorming/Online-Suche, Prüfkriterien definieren, Sachmittel aussuchen              |
 
-#### :mag: Brainstorming/Online-Suche
+#### 1. Recherche
+:mag: Brainstorming/Online-Suche
 
 Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen beinhalten.
 
