@@ -290,16 +290,16 @@ ___
 
 ### Server OK
 - Zabbix Agent OK
-![](7_ubuntu_OK.png)
+![](../_attachments/7_ubuntu_OK.png)
 
 ### Monitoring OK
-![](5_zabbix_OK.png)
+![](../_attachments/5_zabbix_OK.png)
 nginx: OK
 Agent: OK
 Server: OK
 mysql Datenbank: ok
 ### Ticketsystem: OK
-![[4_zammad_ok.png]]
+![[../_attachments/4_zammad_ok.png]]
 - Websocket: OK
 - nginx: OK
 - Scheduler: Aktiv
@@ -322,7 +322,7 @@ Test-Ubuntu-Server Implementiert
 ___
 ## Connectivity Check
 
-Ping Ubuntu -> Zabbix ![[6_ping_server_zu_zabbix.png]]
+Ping Ubuntu -> Zabbix ![[../_attachments/6_ping_server_zu_zabbix.png]]
 
 Ping Zabbix->zammad
 
