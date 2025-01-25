@@ -3,6 +3,13 @@
 | $\color{orange}{\textsf{Arbeitspaket 2: Planen}}$ - Welche Lösungsmöglichkeiten sind vorhanden?           |
 | --------------------------------------------------------------------------------------------------------- |
 | Evaluation mit den Prüfkriterien aufbauen, Testing definieren, Risiken abschätzen sowie Zeitliche Planung |
+### :microscope: 1. Evaluation mit Prüfkriterien
+
+### :bowling: 2. Testing definition
+
+### :warning: 3. Risikodefinition
+
+### :calendar: 4. Zeitliche Planung
 - [SPRINT-GANTT und SEUSAG](.Sprint_und_GANTT)
 - Risikodefinition
 
