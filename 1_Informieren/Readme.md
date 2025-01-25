@@ -33,7 +33,7 @@ waren ebenfalls Bestandteil meiner Recherche.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
 Die Evaluation ist im *IPERKA-SCHRITT PLANEN ersichtlich*
-- [MATRIX](./2_Planen/ITSM_Evaluation_Ticketsysteme.md)
+- [MATRIX](..P/2_Planen/ITSM_Evaluation_Ticketsysteme.md)
 
 ### :wrench: 3. Sachmittel aussuchen
 
