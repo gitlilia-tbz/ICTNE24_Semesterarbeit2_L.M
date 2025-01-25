@@ -6,7 +6,7 @@
 | :bust_in_silhouette: Studierende: | Lilia Mechani                                                    |
 | :busts_in_silhouette: Dozenten:   | (PRJ) Philipp Rohr (ITSM) Ceasar Roth                            |
 
-## 1.1 Beschreibung
+## :page_facing_up: Beschreibung
 ![](2_itsm.png)
 ![](1_Docker_Grafik.png)
 
