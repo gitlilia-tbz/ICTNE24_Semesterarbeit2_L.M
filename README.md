@@ -41,7 +41,7 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 [Realisieren].(4_Realisieren)
 [Kontrollieren].(5_Kontrollieren)
 [Auswerten].(./6_Auswerten.md)
-[Auswerten](./Auswerten.md)
+[Auswerten](./6_Auswerten/Auswerten.md)
 ## :link: Links / Verweise:
 
 [Codebase des Projektes].(Docker-Compose-Daten)
