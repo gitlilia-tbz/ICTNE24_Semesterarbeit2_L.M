@@ -3,18 +3,19 @@
 | $\color{orange}{\textsf{Arbeitspaket 2: Planen}}$ - Welche Lösungsmöglichkeiten sind vorhanden?           |
 | --------------------------------------------------------------------------------------------------------- |
 | Evaluation mit den Prüfkriterien aufbauen, Testing definieren, Risiken abschätzen sowie Zeitliche Planung |
-### :microscope: 1. Evaluation mit Prüfkriterien
+### :warning: 1. Risikodefinition
+
+### :microscope: 2. Evaluation mit Prüfkriterien
 Die Evaluation meiner ITSM-Kandidaten anhand der Prüfkriterien habe ich mit Hilfe von KI (Claude-AI) bereitgestellt.
 
 Für die Auswertung habe ich Claude mit meinen Prüfkriterien gefüttert und als Kandidaten die verschiedenen ITSM-Lösungen vorgestellt.
 
 Claude AI hat anhand meiner Informationen anschliessend die ausgefüllte [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md) bereitgestellt
 
-	Gewinner der Evaluation war das Zammad Ticketingsystem aufgrund der unkomplizierten-Docker-Intergrationsmöglichkeiten sowie Benutzerfreundlichen UI und ITIL V4 gerechtem Funktionsumfang.
+	Gewinner der Evaluation war das Zammad Ticketingsystem aufgrund der unkomplizierten-Docker-Intergrationsmöglichkeiten sowie Benutzerfreundlichen UI und dem ITIL V4 gerechtem Funktionsumfang.
 
-### :bowling: 2. Testing definition
+### :bowling: 3. Testing definition
 
-### :warning: 3. Risikodefinition
 
 ### :calendar: 4. Zeitliche Planung
 - [SPRINT-GANTT und SEUSAG](.Sprint_und_GANTT)
