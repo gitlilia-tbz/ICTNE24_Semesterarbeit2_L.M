@@ -36,7 +36,7 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 
 Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 [[1_Informieren/1_Informieren.md]]
-[Informieren].(1_Informieren)
+[Informieren](./1_Informieren.md)
 
 ## :link: Links / Verweise:
 
