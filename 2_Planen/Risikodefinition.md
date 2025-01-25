@@ -1,5 +1,7 @@
 # Risikodefinition
 
+In diesem Abschnitt wird die Risikodefinition beschrieben. Diese Risikodefinitionen beschreiben allfällige Risiken welche innerhalb meiner Projektarbeit auftreten könnten und wie diesen Risiken entgegengespielt werden.
+
 :triangular_flag_on_post: 1. Kompatibilität und Funktionsabdeckung
 
 :white_check_mark: Gegenmassname:
@@ -16,7 +18,7 @@
 
 
 
- :triangular_flag_on_post: 4. Sicherung der Daten
+ :triangular_flag_on_post: 4. Sicherung der Daten / Datenverlust
 
 :white_check_mark: Gegenmassname:
 
