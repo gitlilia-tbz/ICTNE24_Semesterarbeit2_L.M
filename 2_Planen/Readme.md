@@ -30,8 +30,10 @@ ____
 ### :calendar: 4. Zeitliche Planung
 
 Geplant wird anhand der definierten Arbeitspakete, welche in den jeweiligen Sprint-Phasen ausgeführt werden und in der Umsetzung beschrieben sind.
-
 Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspakete in einem ***Gantt-Diagramm*** festgehalten:  [Sprint und Gantt](Sprint_und_GANTT.md)
+
+*Der Zeitpunkt der Ausführung der Arbeitspakete kann von der Planung abweichen. Das Gantt-Diagramm dient als idealer Richtwert zur Minimierung von allfälligen Problemen im Zeitmanagement
+
 
 
 ___
