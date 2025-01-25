@@ -32,7 +32,7 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 | - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  |
 | - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden                |
 
-##Projektschritte
+## Projektschritte
 
 Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 [Informieren].(1_Informieren)
