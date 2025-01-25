@@ -4,6 +4,13 @@
 | --------------------------------------------------------------------------------------------------------- |
 | Evaluation mit den Prüfkriterien aufbauen, Testing definieren, Risiken abschätzen sowie Zeitliche Planung |
 ### :microscope: 1. Evaluation mit Prüfkriterien
+Die Evaluation meiner ITSM-Kandidaten anhand der Prüfkriterien habe ich mit Hilfe von KI (Claude-AI) bereitgestellt.
+
+Für die Auswertung habe ich Claude mit meinen Prüfkriterien gefüttert und als Kandidaten die verschiedenen ITSM-Lösungen vorgestellt.
+
+Claude AI hat anhand meiner Informationen anschliessend die ausgefüllte [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md) bereitgestellt
+
+	Gewinner der Evaluation war das Zammad Ticketingsystem aufgrund der unkomplizierten-Docker-Intergrationsmöglichkeiten sowie Benutzerfreundlichen UI und ITIL V4 gerechtem Funktionsumfang.
 
 ### :bowling: 2. Testing definition
 

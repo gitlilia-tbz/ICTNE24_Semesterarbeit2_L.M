@@ -3,8 +3,8 @@
 Diese Evaluation stützt sich auf die Grundlegenden Elemente der ITIL V4 ITSM Struktur.
 ![](3_ITSM_Grundlagen.png)
 
-| 🤖 Disclamer: Diese Evaluation wurde durch Claude-AI gestützt          |
-| ---------------------------------------------------------------------- |
+| 🤖 Disclamer: Diese Evaluation wurde durch Claude-AI gestützt           |
+| ----------------------------------------------------------------------- |
 | [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
 
 | System    | ITSM-Funktion              | Kernfunktionen                              | Level         |
@@ -64,5 +64,4 @@ Legende:
 
 	Anhand dieser Evaluation ist der Favorit: *Zammad Ticketing System*
 
-Um meine Evaluation in der Praxis zu stützen, habe ich mit Unterstützung von Claude AI Docker-Compose Files der verschiedenen Lösungen erstellt. Diese werden im $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$ getestet.
-
+Um meine Evaluation in die Praxis zu umzusetzen, habe ich mit Unterstützung von Claude AI Docker-Compose Files der verschiedenen Lösungen erstellt. Diese werden im $\color{yellow}{\textsf{ Arbeitspaket 3: Entscheiden}}$ getestet.
