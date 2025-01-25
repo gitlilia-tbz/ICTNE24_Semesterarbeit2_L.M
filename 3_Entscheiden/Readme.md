@@ -2,13 +2,26 @@
 
 | $\color{yellow}{\textsf{Arbeitspaket 3: Entscheiden}}$ - Welcher Lösungsweg wird eingeschlagen? |
 | ----------------------------------------------------------------------------------------------- |
-| Evaluation anhand der Prüfkriterien durchführen, Lösungsvariante wählen                         |
-Nach Tests innerhalb meiner Docker-Umgebung habe ich mich definitiv für folgende Lösung entschieden
-- Zabbix Monitoring 
-Kandidaten welche ausgeschieden wurden waren PRTG sowie Service-NOW
-- Docker 
-Für eine Plattform welche dem Lehrgang gerecht ist und höchste Flexibilität zur Orchestrierung der Lösung. iAC
-- Zendesk Helpdesk
-Für die Rasche
+| Entscheidung der definitiven Lösungsvariante                                                    |
+### :ticket: 1. Entscheidung der ITSM Lösung:
+
+Nach Tests innerhalb meiner Docker Umgebung habe ich mich definitiv für *Zammad Ticketingsystem* entschieden aufgrund er genügenden Abdeckung der ITSM-Entscheidungskriterien in der Evaluations-Matrix sowie für mich verständlicher Docker-Compose Struktur.
+
+Kandidaten welche ausgeschieden sind waren *OTRS* sowie *FreeScout*
+#### Ausscheidung OTRS:
+Wieso ist OTRS ausgeschieden?
+- Unattraktive UI
+- Komplizierte Docker-Compose Struktur, Docker-Unfreundlich. Konnte nicht alle nötigen Services finden und / oder herauffahren. Eher für OnPrem Hosting geeignet
+#### Ausscheidung FreeScout:
+Wieso ist FreeScout ausgeschieden?
+- Minimale Abdeckung von den ITIL-Entscheidungskriterien. Einige Fehlende Funktionen. Nicht ITIL-V4 geeignet.
+### :pager: 2. Entscheidung der Monitoring Lösung:
+
+Nach Tests innerhalb meiner Docker-Umgebung habe ich mich definitiv für *Zabbix Monitoring* entschieden.
+Wieso habe ich mich für Zabbix entschieden?
+- Optimale Kompatibilität mit Docker
+- Für mich übersichtlich und Verständlich
+- Im Betrieb bei mehreren Klassenkameraden sowie Empfehlung von Klassendozenten. (Beliebt / bekannt im Umfeld)
+
 
 ___
