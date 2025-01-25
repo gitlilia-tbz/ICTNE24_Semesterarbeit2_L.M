@@ -50,7 +50,6 @@ Etwas komplexere Struktur, weniger Benutzerfreundlich
 :small_red_triangle: Nachteile: Zu simpel, fehlende Funktionen. Nur 
 grundlegender Email-Support
 
-
 | Kriterien             | ZAMMAD | OTRS | FREESCOUT |
 | --------------------- | ------ | ---- | --------- |
 | Docker-Kompatibilität | ✓      | ±    | ±         |

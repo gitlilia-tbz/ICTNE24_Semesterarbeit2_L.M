@@ -32,8 +32,31 @@ waren ebenfalls Bestandteil meiner Recherche.
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
+Um eine präzisere Evaluation zu gewährleisten, habe ich innerhalb der Prüfkriterien, Kernkriterien hinzugefügt welche mit dem ITIL Framework korrelieren:
+
+| ITSM-Funktion              | Kernfunktionen                              |
+| -------------------------- | ------------------------------------------- |
+| Incident Management        | Tickets, SLAs, Workflows, Multi-Channel     |
+| Change Management          | Change-Tickets, Genehmigungen, Risikofelder |
+| Problem Management         | Problem-Tickets, Incident-Linking, RCA      |
+| Knowledge Management       | KB, Kategorien, Suche, Versionen            |
+| IT Asset Management        | Asset-Tracking, Linking, Custom Fields      |
+| Service Desk               | Multi-Channel, Portal, Routing, Tools       |
+| Service Catalog            | Request-Forms, Kategorien, Portal           |
+| Service Request Management | Formulare, Workflows, Genehmigungen         |
+
+
 Die Evaluation ist im *IPERKA-SCHRITT PLANEN ersichtlich*
 - [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md)
+
+Damit Kommunikation innerhalb der Docker-Netzwerkstruktur und den Schnittstellen der potentiellen Lösungen funktionieren kann, habe ich zudem zusätzliche Evaluationskriterien definiert:
+
+| Weitere Evaluationskriterien: |                                                                          |
+| ----------------------------- | ------------------------------------------------------------------------ |
+| - Docker-Kompatibilität       | Für Kompatibilität mit meiner Orchestrierung                             |
+| - Agenten-Unterteilung        | Verschiedene ITSM-Agenten für verschiedene Prozesse und Zwecke erstellen |
+| - Workflows                   | Für Automationsprozesse                                                  |
+| - API-Funktionalität          | API-Zugriffe für ITSM und Monitoring                                     |
 
 ### :wrench: 3. Sachmittel aussuchen
 
