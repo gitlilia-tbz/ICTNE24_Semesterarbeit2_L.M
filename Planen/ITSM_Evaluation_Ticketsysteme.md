@@ -5,7 +5,7 @@ Diese Evaluation stützt sich auf die Grundlegenden Elemente der ITIL V4 ITSM St
 
 | 🤖 Disclamer: Diese Evaluation wurde durch Claude-AI gestützt          |
 | ---------------------------------------------------------------------- |
-| [Siehe diesen Link für weitere Informationen](./Quellen_und_Disclamer) |
+| [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
 
 | System    | ITSM-Funktion              | Kernfunktionen                              | Level         |
 | --------- | -------------------------- | ------------------------------------------- | ------------- |

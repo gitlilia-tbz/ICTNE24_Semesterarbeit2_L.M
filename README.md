@@ -37,5 +37,5 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 
 [Quellen und Disclamer](./Quellen_und_Disclamer.md)
 [Reflexion](.Reflexion.md)
-[Sprint und Gantt](./Sprint_und_GANTT.md)
+[Sprint und Gantt](Sprint_und_GANTT.md)
 [Umsetzung mit IPERKA](./Umsetzung_und_IPERKA.md)

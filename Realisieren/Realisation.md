@@ -290,10 +290,10 @@ ___
 
 ### Server OK
 - Zabbix Agent OK
-![](./_attachments/7_ubuntu_OK.png)
+![](7_ubuntu_OK.png)
 
 ### Monitoring OK
-![](./_attachments/5_zabbix_OK.png)
+![](5_zabbix_OK.png)
 nginx: OK
 Agent: OK
 Server: OK
