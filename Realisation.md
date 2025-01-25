@@ -283,7 +283,7 @@ Compose-Errors beseitigen
 ___
 ### Server OK
 - Zabbix Agent OK
-![[7_ubuntu_OK.png]]
+![](7_ubuntu_OK.png)
 
 ### Monitoring OK
 ![[5_zabbix_OK.png]]
