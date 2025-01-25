@@ -35,7 +35,7 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 ## Projektschritte
 
 Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
-[[1_Informieren]]
+[[1_Informieren/1_Informieren.md]]
 ## :link: Links / Verweise:
 
 [Codebase des Projektes].(Docker-Compose-Daten)
