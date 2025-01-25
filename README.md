@@ -1,5 +1,5 @@
 # Einführung / README
-# :page_with_curl: Semesterarbeit 2
+## :page_with_curl: Semesterarbeit 2
 ![](./_attachments/2_itsm.png)
 
 | :ticket: Titel:                   | Self-Hosted ITSM mit Systemüberwachung via automatischer Tickets |
@@ -14,7 +14,7 @@
 |                                       |
 
 
-## :page_facing_up: Beschreibung
+## :pencil2: Beschreibung
 
 ![](./_attachments/1_Docker_Grafik.png)
 
