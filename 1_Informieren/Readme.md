@@ -45,10 +45,6 @@ Um eine präzisere Evaluation zu gewährleisten, habe ich innerhalb der Prüfkri
 | Service Catalog            | Request-Forms, Kategorien, Portal           |
 | Service Request Management | Formulare, Workflows, Genehmigungen         |
 
-
-Die Evaluation ist im *IPERKA-SCHRITT PLANEN ersichtlich*
-- [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md)
-
 Damit Kommunikation innerhalb der Docker-Netzwerkstruktur und den Schnittstellen der potentiellen Lösungen funktionieren kann, habe ich zudem zusätzliche Evaluationskriterien definiert:
 
 | Weitere Evaluationskriterien: |                                                                          |
@@ -57,6 +53,9 @@ Damit Kommunikation innerhalb der Docker-Netzwerkstruktur und den Schnittstellen
 | - Agenten-Unterteilung        | Verschiedene ITSM-Agenten für verschiedene Prozesse und Zwecke erstellen |
 | - Workflows                   | Für Automationsprozesse                                                  |
 | - API-Funktionalität          | API-Zugriffe für ITSM und Monitoring                                     |
+
+*Die vollumfängliche Evaluation ist unter IPERKA-SCHRITT PLANEN ersichtlich
+- [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md)
 
 ### :wrench: 3. Sachmittel aussuchen
 
