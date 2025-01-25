@@ -4,37 +4,36 @@
 | --------------------------------------------------------------------------------------- |
 | Brainstorming/Online-Suche, Prüfkriterien definieren, Sachmittel aussuchen              |
 
-#### 1. Recherche
-:mag: Brainstorming/Online-Suche
+#### :mag: 1. Recherche; Brainstorming/Online-Suche
 
-Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen beinhalten.
+Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen nach ITIL beinhalten.
 
+Die Kriterien
 - Monitoringkompatibilität und einfache Integration der Monitoring-Funktionalitäten
-- Orchestrierung (Dabei ist die Kompatibilität mit Docker-Compose wichtig)
-- Ticketing-Funktionalität
+- Self-Hosting und Orchestrierung (Dabei ist die Kompatibilität mit Docker-Compose wichtig) -> Klare Eingrenzung via SEUSAG
 - Kostenloser Zugriff / Freie Lizenz
+waren ebenfalls Bestandteil meiner Recherche.
 
-Das Ticketsystem soll Funktionen beinhalten, welche im Alltäglichen Support sowie im ITIL-Prozess Grundlegend sind. Diese sind unten in den definierten Prüfkriterien ersichtlich.
-Zudem muss das Ticket System die Möglichkeit bieten, es auf eigener Infrastruktur zu hosten.
-So kann ich das System mit SEUSAG klar eingrenzen.
+*Folgende Lösungen habe ich in den Google-Suchergebnissen gefunden sowie von Benutzerempfehlungen auf Reddit.com:
 
-Potentielle Ticketsysteme aus meiner Online-Suche
+| Potentielle Ticketsysteme aus meiner Online-Suche sind |
+| ------------------------------------------------------ |
+| -  OTRS                                                |
+| - ZAMMAD                                               |
+| - FREESCOUT                                            |
 
-- OTRS
-- ZAMMAD
-- FREESCOUT
+| Potentielle Monitoring-Lösungen aus meiner Online Suche |
+| ------------------------------------------------------- |
+| -  PASSLERS PRTG                                        |
+| - ZABBIX MONITORING                                     |
 
-Potentielle Monitoring-Lösungen aus meiner Online Suche
-- Paesslers PRTG
-- Zabbix
-
-#### :scroll: Prüfkriterien definieren
+#### 2. :scroll: Prüfkriterien definieren
 
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
 
-#### :wrench: Sachmittel aussuchen
+#### 3. :wrench: Sachmittel aussuchen
 
 Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht.
 ______
