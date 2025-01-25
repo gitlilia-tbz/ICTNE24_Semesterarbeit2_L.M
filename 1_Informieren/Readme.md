@@ -32,8 +32,10 @@ waren ebenfalls Bestandteil meiner Recherche.
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
+Die Evaluation ist im *IPERKA-SCHRITT PLANEN ersichtlich*
+- [MATRIX](2_Planen/ITSM_Evaluation_Ticketsysteme.md)
 
 ### :wrench: 3. Sachmittel aussuchen
 
-Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht.
+Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht, da Docker während unserer Weiterbildung im Modul zum Cloud-Native Engineer eingesetzt wird.
 ______
