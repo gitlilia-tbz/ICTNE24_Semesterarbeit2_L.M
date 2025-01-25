@@ -12,7 +12,7 @@ Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspa
 
 | :pushpin: Link zur Evaluation:                                       |
 | -------------------------------------------------------------------- |
-| [ITSM Evaluation der Ticketsysteme](./ITSM_Evaluation_Ticketsysteme) |
+| [ITSM Evaluation der Ticketsysteme](ITSM_Evaluation_Ticketsysteme.md) |
 
 LINK ZU SPRINT UND GANNT
 ___

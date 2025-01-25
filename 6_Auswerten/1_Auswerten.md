@@ -2,5 +2,5 @@
 | $\color{Purple}{\textsf{Arbeitspaket 6: Auswerten}}$ - Was gelang gut, was weniger? |
 | ----------------------------------------------------------------------------------- |
 | Reflexion und Fazit                                                                 |
-[Reflexion](./Reflexion)
+[Reflexion](Reflexion.md)
 ___
