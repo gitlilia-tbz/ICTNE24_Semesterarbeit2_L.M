@@ -10,8 +10,11 @@ Nach Tests innerhalb meiner Docker Umgebung habe ich mich definitiv für *Zammad
 Kandidaten welche ausgeschieden sind waren *OTRS* sowie *FreeScout*
 #### Ausscheidung OTRS:
 Wieso ist OTRS ausgeschieden?
-- Unattraktive UI
-- Komplizierte Docker-Compose Struktur, Docker-Unfreundlich. Konnte nicht alle nötigen Services finden und / oder herauffahren. Eher für OnPrem Hosting geeignet
+- Unattraktive UI (Persönliche Meinung)
+- Abhängikeiten nötig, Installation ist an Data-Ordner Abhängig. Docker-Unfreundlich. Konnte nicht alle nötigen Services finden und / oder herauffahren. Eher für OnPrem Hosting geeignet
+
+Nach mehreren Versuchen war es mir nicht möglich, OTRS in meiner Docker-Umgebung bereitzustellen.
+
 #### Ausscheidung FreeScout:
 Wieso ist FreeScout ausgeschieden?
 - Minimale Abdeckung von den ITIL-Entscheidungskriterien. Einige Fehlende Funktionen. Nicht ITIL-V4 geeignet.
