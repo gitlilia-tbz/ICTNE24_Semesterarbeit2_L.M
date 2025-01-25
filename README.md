@@ -43,10 +43,8 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 [[1_Informieren/1_Informieren.md]]
 [Informieren](../1_Informieren.md)
 
-[Text](1_Informieren/1_Informieren.md)
+[Text](1_Informieren/Readme.md)
 
-
->>>>>>> origin/main
 ## :link: Links / Verweise:
 
 [Codebase des Projektes].(Docker-Compose-Daten)
