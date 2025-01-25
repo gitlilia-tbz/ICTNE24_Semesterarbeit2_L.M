@@ -283,16 +283,17 @@ Compose-Errors beseitigen
 ___
 ### Server OK
 - Zabbix Agent OK
+- ![](./_attachments/7_ubuntu_OK.png)
 ![](7_ubuntu_OK.png)
 ![](7_ubuntu_OK.png)
 ### Monitoring OK
-![5\_zabbix\_OK.png](5_zabbix_OK.png)
+![[5_zabbix_OK.png]]
 nginx: OK
 Agent: OK
 Server: OK
 mysql Datenbank: ok
 ### Ticketsystem: OK
-![4\_zammad\_ok.png](4_zammad_ok.png)
+![[4_zammad_ok.png]]
 - Websocket: OK
 - nginx: OK
 - Scheduler: Aktiv
@@ -315,7 +316,7 @@ Test-Ubuntu-Server Implementiert
 ___
 ## Connectivity Check
 
-Ping Ubuntu -> Zabbix ![6\_ping\_server\_zu\_zabbix.png](6_ping_server_zu_zabbix.png)
+Ping Ubuntu -> Zabbix ![[6_ping_server_zu_zabbix.png]]
 
 Ping Zabbix->zammad
 
