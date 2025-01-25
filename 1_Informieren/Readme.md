@@ -26,7 +26,7 @@ waren ebenfalls Bestandteil meiner Recherche.
 | ------------------------------------------------------- |
 | -  PASSLERS PRTG                                        |
 | - ZABBIX MONITORING                                     |
-
+_____
 ### :scroll: 2. Prüfkriterien definieren
 
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
@@ -56,7 +56,7 @@ Damit Kommunikation innerhalb der Docker-Netzwerkstruktur und den Schnittstellen
 
 *Die vollumfängliche Evaluation ist unter IPERKA-SCHRITT PLANEN ersichtlich
 - [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md)
-
+____
 ### :wrench: 3. Sachmittel aussuchen
 
 Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht, da Docker während unserer Weiterbildung im Modul zum Cloud-Native Engineer eingesetzt wird und sich für ähnliche Aufträge innerhalb des Moduls als optimal bewährt hat.

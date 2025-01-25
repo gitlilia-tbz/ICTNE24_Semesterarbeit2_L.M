@@ -17,8 +17,7 @@ Während der Umsetzung teste ich ob die Docker-Compose Files die nötigen Docker
 
 - Testing nach der Umsetzung
 Nach der Umsetzung wird mein Test-Server heruntergefahren, damit ich schauen kann, ob das Ticket mit den nötigen Informationen innerhalb meiner Ticketsystems generiert wird
-
-
+_____
 ### :microscope: 3. Evaluation mit Prüfkriterien
 Die Evaluation meiner ITSM-Kandidaten anhand der Prüfkriterien habe ich mit Hilfe von KI (Claude-AI) bereitgestellt.
 
@@ -27,18 +26,12 @@ Für die Auswertung habe ich Claude mit meinen Prüfkriterien gefüttert und als
 Claude AI hat anhand meiner Informationen anschliessend die ausgefüllte [MATRIX](../2_Planen/ITSM_Evaluation_Ticketsysteme.md) bereitgestellt
 
 	Gewinner der Evaluation war das Zammad Ticketingsystem aufgrund der unkomplizierten-Docker-Intergrationsmöglichkeiten sowie Benutzerfreundlichen UI und dem ITIL V4 gerechtem Funktionsumfang.
-
+____
 ### :calendar: 4. Zeitliche Planung
-- [SPRINT-GANTT und SEUSAG](.Sprint_und_GANTT)
-- Risikodefinition
 
 Geplant wird anhand der definierten Arbeitspakete, welche in den jeweiligen Sprint-Phasen ausgeführt werden und in der Umsetzung beschrieben sind.
 
-Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspakete in einem ***Gantt-Diagramm*** festgehalten.
+Um die zeitliche Übersicht zu behalten, werden diese Phasen sowie die Arbeitspakete in einem ***Gantt-Diagramm*** festgehalten:  [Sprint und Gantt](Sprint_und_GANTT.md)
 
-| :pushpin: Link zur Evaluation:                                       |
-| -------------------------------------------------------------------- |
-| [ITSM Evaluation der Ticketsysteme](ITSM_Evaluation_Ticketsysteme.md) |
 
-LINK ZU SPRINT UND GANNT
 ___
