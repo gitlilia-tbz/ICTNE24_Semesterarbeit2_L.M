@@ -4,7 +4,7 @@
 | --------------------------------------------------------------------------------------- |
 | Brainstorming/Online-Suche, Prüfkriterien definieren, Sachmittel aussuchen              |
 
-#### :mag: 1. Recherche; Brainstorming/Online-Suche
+### :mag: 1. Recherche; Brainstorming/Online-Suche
 
 Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen nach ITIL beinhalten.
 
@@ -27,13 +27,13 @@ waren ebenfalls Bestandteil meiner Recherche.
 | -  PASSLERS PRTG                                        |
 | - ZABBIX MONITORING                                     |
 
-#### :scroll: 2. Prüfkriterien definieren
+### :scroll: 2. Prüfkriterien definieren
 
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
 
-#### :wrench: 3. Sachmittel aussuchen
+### :wrench: 3. Sachmittel aussuchen
 
 Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht.
 ______
