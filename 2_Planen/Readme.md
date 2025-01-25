@@ -6,7 +6,7 @@
 ### :warning: 1. Risikodefinition
 
 Die Risikodefinition sollten die Stolpersteine innerhalb meiner Projektarbeit minimieren.
-Die Risikodefinitionen sind hier vorhanden:  [Risikodefinition](2_Planen/Risikodefinition.md)
+Die Risikodefinitionen sind hier vorhanden:  [Risikodefinition](Risikodefinition.md)
 
 ### :bowling: 2. Testing definition
 - Testing vor der Umsetzung
