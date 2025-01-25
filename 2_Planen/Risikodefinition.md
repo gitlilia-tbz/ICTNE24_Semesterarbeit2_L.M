@@ -20,5 +20,6 @@ ___
 :triangular_flag_on_post: 4. Sicherung der Daten / Datenverlust
 
 :white_check_mark: Gegenmassname:
-Codebase-Backup im Github ablegen und Bilder zur Dokumentation im persönlichen OneDrive sichern
+Codebase-Backup im Github ablegen und Bilder zur Dokumentation im persönlichen OneDrive sichern.
+Dokumentation regelmässig im Github sichern.
 ____
