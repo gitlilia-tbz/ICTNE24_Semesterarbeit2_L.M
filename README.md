@@ -23,7 +23,7 @@ Diese Semesterarbeit beinhaltet eine Evaluation von mind. 2 Ticketsystemen, wodu
 Hierbei möchte ich 
 beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 
-***Die vollständige Lösung sollte kostenfrei und Benutzerfreundlich sein sowie Kompatibilität mit meiner skalierbaren Umgebung bieten.
+:round_pushpin: Die vollständige Lösung sollte kostenfrei und Benutzerfreundlich sein sowie Kompatibilität mit meiner skalierbaren Umgebung bieten.
 
 
 | :checkered_flag: Ziele                                                                                 |
@@ -32,6 +32,15 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 | - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  |
 | - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden                |
 
+##Projektschritte
+
+Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
+[Informieren].(1_Informieren)
+[Planen].(2_Planen)
+[Entscheiden].(3_Entscheiden)
+[Realisieren].(4_Realisieren)
+[Kontrollieren].(5_Kontrollieren)
+[Auswerten].(6_Ausweren)
 ## :link: Links / Verweise:
 
 [Codebase des Projektes].(Docker-Compose-Daten)
