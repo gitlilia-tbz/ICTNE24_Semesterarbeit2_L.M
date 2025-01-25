@@ -31,7 +31,7 @@ Potentielle Monitoring-Lösungen aus meiner Online Suche
 #### :scroll: Prüfkriterien definieren
 
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
-![](3_ITSM_Grundlagen.png)
+![](../_attachments/3_ITSM_Grundlagen.png)
 
 
 #### :wrench: Sachmittel aussuchen
