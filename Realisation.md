@@ -3,6 +3,11 @@
 Technische Umsetzung:
 ## Docker-Composefiles
 
+Das System wird via Docker aufgesetzt. Die 3 Elemente des Monitoring (Zabbix Monitoring, Zammad ITSM und mein Testserver) werden via Docker-Compose Files aufgesetzt.
+
+Schlussendlich soll die Struktur so aussehen:
+******************************** BILD EINFÜGEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Die Docker-Compose files beschreiben sich praktisch selbst.
 Eines der wichtigsten Elemente im Compose-File der Zabbix installation ist die definition von **Networks.** Dabei wird das Netzwerk für die Docker-Umgebung definiert. 
 	    networks:
@@ -281,9 +286,11 @@ volumes:
 Compose-Errors beseitigen
 
 ___
+	Die Docker Container werden via *docker compose up -d hochgefahren
+
 ### Server OK
 - Zabbix Agent OK
-- ![](./_attachments/7_ubuntu_OK.png)
+![](./_attachments/7_ubuntu_OK.png)
 
 ### Monitoring OK
 ![](./_attachments/5_zabbix_OK.png)
