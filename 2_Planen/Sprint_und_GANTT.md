@@ -2,12 +2,11 @@
  
  ### :running: Sprint-Zeitplan
 
-| :pushpin: Sprint-Phase 1                      | :pushpin: Sprint-Phase 2                                                                             | :pushpin: Sprint-Phase 3                                      |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| 28.10.24 - 22.11.24                           | 22.11.24 - 13.12.24                                                                                  | 13.12.24 - 27.1.25                                            |
-| (Abbruch des Prozess aufgrund Projektwechsel) | Neu-Konzeption des Projektes, Auswahl der Technischen Mittel, Vorbereitung der Dokumentationssmittel | Technische Umsetzung und schriftliche Dokumentation           |
-|                                               | Arbeitspakete 1 bis 3 (INFORMIEREN, PLANEN, ENTSCHEIDEN)                                             | Arbeitspakete 4 bis 6 (REALISIEREN, KONTROLLIEREN, AUSWERTEN) |
-|                                               |                                                                                                      |                                                               |
+| :pushpin: Sprint-Phase 1                      | :pushpin: Sprint-Phase 2                                                                             | :pushpin: Sprint-Phase 3                            |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| 28.10.24 - 22.11.24                           | 22.11.24 - 13.12.24                                                                                  | 13.12.24 - 27.1.25                                  |
+| (Abbruch des Prozess aufgrund Projektwechsel) | Neu-Konzeption des Projektes, Auswahl der Technischen Mittel, Vorbereitung der Dokumentationssmittel | Technische Umsetzung und schriftliche Dokumentation |
+
 
 -----
 
