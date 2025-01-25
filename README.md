@@ -32,16 +32,18 @@ beachten, dass das Ticketsystem meinem Lehrgang gerecht ist und Cloud-Ready ist.
 | - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  |
 | - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden                |
 
-## Projektschritte
+## :walking: Projektschritte
 
 Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 
-- [INFORMIEREN](1_Informieren/Readme.md)
-- [PLANEN](2_Planen/Readme.md)
-- [ENTSCHEIDEN](3_Entscheiden/Readme.md)
-- [REALISIEREN](4_Realisieren/Readme.md)
-- [KONROLLIEREN](5_Kontrollieren/Readme.md)
-- [AUSWERTEN](6_Auswerten/Readme.md)
+| IPERKA-SCHRITT                              | Inhalt Arbeitspaket                                                                                       |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| - [INFORMIEREN](1_Informieren/Readme.md)    | Brainstorming/Online-Suche, Prüfkriterien definieren, Sachmittel aussuchen                                |
+| - [PLANEN](2_Planen/Readme.md)              | Evaluation mit den Prüfkriterien aufbauen, Testing definieren, Risiken abschätzen sowie Zeitliche Planung |
+| - [ENTSCHEIDEN](3_Entscheiden/Readme.md)    | Evaluation anhand der Prüfkriterien durchführen, Lösungsvariante wählen                                   |
+| - [REALISIEREN](4_Realisieren/Readme.md)    | Umsetzung und Dokumentation, Arbeit nach Checkliste                                                       |
+| - [KONROLLIEREN](5_Kontrollieren/Readme.md) | Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung            |
+| - [AUSWERTEN](6_Auswerten/Readme.md)        | Reflexion und Fazit                                                                                       |
 ## :link: Links / Verweise:
 
 [Codebase des Projektes].(Docker-Compose-Daten)
