@@ -40,24 +40,17 @@ ____
 
 #### - Connectivity
 
-Um die Connectivity in meinem Docker-Netzwerk zu testen, werde ich alle Mitglieder gegenseitig anpingen und auf die einzelnen Web-Interfaces zugreifen:
+Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring den Zammad nginx sowie den Ubuntu Server anpingen.
 
-Ping Ubuntu -> Zabbix 
-`docker exec -it ubuntu-server ping zabbix-server`
 
-![[6_ping_server_zu_zabbix.png]]
-
-Ping Zabbix->zammad
+Ping Zabbix->zammad nginx
 `docker exec -it zabbix-server ping zammad-nginx`
 
-Ping Zabbix->ubuntu
+Ping Zabbix->ubuntu server
 `docker exec -it zabbix-server ping ubuntu-server`
 
-Ping Zammad->Zabbix
-`docker exec -it zammad-nginx ping zabbix-server`
+Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix alle Teilnehmer sieht.
 
-Ping Zammad->ubuntu
-`docker exec -it zammad-nginx ping ubuntu-server`
 
 ___
 
