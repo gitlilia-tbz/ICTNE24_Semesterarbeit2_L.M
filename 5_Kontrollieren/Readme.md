@@ -2,9 +2,9 @@
 | $\color{cyan}{\textsf{Arbeitspaket 5: Kontrollieren}}$ - Wurde der Auftrag korrekt umgesetzt? |
 | --------------------------------------------------------------------------------------------- |
 | Testing der Umgebung                                                                          |
-### 1. Kontrolle der folgenden Punkte:
+### :flashlight: 1. Kontrolle der folgenden Punkte:
 
-#### - Aktivität der Services
+#### :wrench: Aktivität der Services
 
 Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren muss ich kontrollieren, ob alle Docker Aktiv sind und die einzelnen Services keine Error-Messages generieren:
 
@@ -38,23 +38,26 @@ Aktivität des Zammad ITSM:
 Zammad sowie Zabbix sind via WebGUI erreichbar
 ____
 
-#### - Connectivity
+#### :wrench: Connectivity
 
 Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring den Zammad nginx sowie den Ubuntu Server anpingen.
 
-
-Ping Zabbix->zammad nginx
+**Ping Zabbix->zammad nginx
 `docker exec -it zabbix-server ping zammad-nginx`
+
 ![](../_attachments/9_zabbix_zu_zammad.png)
-Ping Zabbix->ubuntu server
+
+
+**Ping Zabbix->ubuntu server
 `docker exec -it zabbix-server ping ubuntu-server`
+
 ![](../_attachments/8_zabbix_zu_ubuntu.png)
 Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix alle Teilnehmer sieht.
 
 
 ___
 
-#### - Persistenz
+#### :wrench: Persistenz
 Zabbix:
 - ✓ Sicher - Alle Daten (MySQL, Server-Konfiguration, Server-Daten) werden in persistenten Volumes gespeichert
 ```yaml
@@ -118,7 +121,7 @@ Konfiguration sieht identisch aus:
 
 ____
 
-#### - Auslösen des Alarms
+#### :wrench: Auslösen des Alarms
 Um meine Umgebung zu testen, wird der Server via Docker heruntergefahren.
 
 Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgelöst werden durch den Zabbix / Zendesk Webhook.
