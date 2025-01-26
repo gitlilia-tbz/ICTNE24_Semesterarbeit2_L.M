@@ -39,14 +39,17 @@ Nach Korrektur dieser Fehler hat mein Monitoring funktioniert und die Ticktes wu
 
 #### :rotating_light: Problem 4: Versehentliche Löschung der Zammad Volumes
 Fehlerhafter Eingabe der `docker compose down -v` Befehls / Löschung meiner Daten
-:white_check_mark:
+
+:white_check_mark: Ich habe Zammad wieder neu Konfiguriert
 #### Problem 5: Mühsames Testing der ITSM Lösungen
 Docker Compose kaputt / Fehlende Kompatibilität mit Docker
-:white_check_mark:
+
+:white_check_mark: Ich bin auf Zammad ausgewichen als ich realisiert habe das OTRS und FREESCOUT sich nicht für Docker eignen. Zammad war sowieso auch der Gewinner meiner Evaluation.
+
 #### :rotating_light: Problem 6: Verlust von Connectivity
 Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
-:white_check_mark:
+:white_check_mark: Habe alle Docker Compose Files mit Fixen IP's bestückt.
 ### :green_book: - Welche Erkenntnisse ziehe ich daraus?
 - Regelmässige Pausen zu machen und den Kopf durchlüften
 - KI Taktisch einsetzen
@@ -59,14 +62,26 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Mit Frustration besser Umgehen
 
 ### :green_book: - Sind alle Ziele erreicht worden?
+| :checkered_flag: Ziele                                                                                 |
+| ------------------------------------------------------------------------------------------------------ |
+| - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen                                |
+| - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  |
+| - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden                |
+Ja, alle Ziele wurden in meinem Projekt erreicht..
 
+### :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt / Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
 
-
-### :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt?
-### - Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
+- Leider wurde mein erstes Projekt abgelehnt. Dies hat sich jedoch als riesige Lernmöglichkeit entpuppt. Dies hatte jedoch meinen Zeitplan etwas über Bord geworfen.
+- Ich bin in der Phase des 1. und 2. Sprint schwer und mühsam an Covid erkrankt. Ich hatte nicht meine übliche Denk- und Lernkapazität und es war eine grosse Challenge für mich, zu denken. Dies hat sich auch auf meine Arbeit im Betrieb ausgewirkt. Ich habe viel Zeit gebraucht, um mich vollständig zu erholen. Ich habe mich erst ab dem 3. Sprint fit gefühlt und habe auch die Mehrheit meiner Projektarbeit im 3. Sprint abgewickelt
+- Ich hatte im Persönlichen Umfeld Challenges, welche nicht einfach waren. Die Herausforderungen haben mich während der Projektarbeit belastet, jedoch habe ich in kleinen Schritten gelernt, damit umzugehen.
+- Das verfassen der Dokumentation hat sich als Zeitaufwändiger erwiesen als ich ursprünglich eingeschätzt habe. Ich bin an mehreren Wochenenden dran gewesen um meine Dokumentation abzuschliessen. Dies hat viel Energie und Zeit beansprucht.
 
 
 ### :green_book: - Warum bin ich mit meiner Leistung zufrieden / unzufrieden?
+
+:thumbsdown:
+
+ :thumbsup:
 ### - Was mache ich beim nächsten Auftrag anders / besser?
 
 
