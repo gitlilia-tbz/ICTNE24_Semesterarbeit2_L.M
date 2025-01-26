@@ -14,8 +14,6 @@ Ich bin sehr zufrieden mit der Persistenz meiner Umgebung. Der simple Aufbau des
 Die Evaluation hat mir auch besonders gefallen. Ich bin vollumfänglich zufrieden mit der Zammad ITSM-Lösung und ich benutze Zammad sehr gerne. Bis zu diesem Projekt habe ich zum ersten Mal von Zammad erfahren.
 
 Trotz des Zeitdrucks habe ich eine vollumfängliche Lösung auf die Beine gestellt. Dieses Projekt bietet auch die Gelegenheit, darauf aufzubauen. Dieses Projekt wäre ein guter Kandidat für zukünftige Projektarbeiten.
-## :green_book:- Worin liegen die Gründe?
-
 
 ## :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
 
@@ -78,9 +76,10 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 | - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen  :white_check_mark:                               |
 | - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  :white_check_mark: |
 | - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden :white_check_mark:                |
+|                                                                                                                           |
 
 
-:white_check_mark: Ja, alle Ziele, die ich am Anfang des Projektes definiert habe, wurden in meinem Projekt erreicht.
+:white_check_mark: Ja, alle Ziele, die ich am Anfang des Projektes definiert habe, wurden in meinem Projekt erreicht. Zudem konnte 3 anstatt wie in der Projektbeschreibung "mind. 2" ITSM Lösungen evaluieren.
 
 ## :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt / Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
 
@@ -92,11 +91,15 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
 ## :green_book: - Warum bin ich mit meiner Leistung zufrieden / unzufrieden?
 
-:thumbsdown:
+:thumbsdown: Ich bin etwas unzufrieden weniger Feedback während dem Projekt eingeholt zu haben als bei meiner letzten Semesterarbeit. Aufgrund der speziellen Situation sowie persönlichen Umständen war mir das nicht möglich. Ich habe dennoch mein bestes gegeben und werde weiterhin mein bestes geben. Zudem hätte ich mir auch gewünscht, meine Dokumentation noch etwas zu erweitern um der Projektarbeit noch gerechter zu werden, dies war mir aber Kapazitätsgründen nicht mehr möglich. Wie bereits erwähnt, habe ich aber mein bestes gegeben.
 
- :thumbsup:
+ :thumbsup: Ich bin äusserst zufrieden mit der Lösung sowie dem Konzept. Es gibt mir ein gutes Gefühl mein ITSM wissen sowie mein neu gelerntes Wissen über Docker erfolgreich umgesetzt zu haben und meine technischen Ziele vollständig erfüllt zu haben.
+ Die Umgebung läuft gut und flüssig. Alles ist erreichbar. Durch meine Arbeit habe ich mir eine Grundstein für zukünftige Semesterarbeiten bereitgestellt.
 ### - Was mache ich beim nächsten Auftrag anders / besser?
-
+- Bei einer allfälligen Ablehnung meiner Projektes, vorher einen Plan B bereithalten und / oder früher einen Ersatz konzipieren
+- Stress im Persönlichen Leben minimieren, damit ich so viel Kapazität wie möglich im Projekt habe
+- Mehr auf meine Dozenten zugehen (Rat und Feedback einholen) und mehr Sprint-Gespräche Nutzen
+- Mehr Zusammenarbeit mit meinen Klassenkameraden organisieren
 
 ## :green_book: - Ist gewährleistet, dass gewonnene Erkenntnisse in neuen Aufgaben berücksichtigt oder aufgedeckte Mängel berücksichtigt werden?
 
@@ -119,4 +122,4 @@ Claude hingegen hat das gebrochene Bein stehts mit einbezogen und mir mit einer 
 
 - Ich möchte mich bei meinen Schulkameraden bedanken, die jeweils am Wochenende mit mir in die Bibliothek gegangen sind, um zusammen an unseren Projektarbeiten zu arbeiten.
 - Ich möchte mich bei meinen Dozenten an der TBZ bedanken (Philipp 1 und Philipp 2, Caesar und Corrado) welche mich bei meiner Projektarbeit beraten haben und zur Konzeption beigetragen haben
-- Zudem bei meiner Familie, welche mich mental während meiner Semesterarbeit unterstützt haben.
+- Zudem bei meiner Familie, welche mich mental während meiner Semesterarbeit unterstützt haben. Vielen Dank
