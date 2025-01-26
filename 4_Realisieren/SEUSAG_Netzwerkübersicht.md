@@ -1,6 +1,10 @@
 Seusag / Netzwerkübersicht
 
 ```Mermaid
+
+
+```
+```mermaid
 graph TB
     subgraph Host[Local Machine]
         subgraph Docker[Docker Engine]
@@ -45,5 +49,4 @@ graph TB
     %% Internal Zammad Connections
     postgres & elastic & redis --> rails
     rails --> nginx
-
 ```
