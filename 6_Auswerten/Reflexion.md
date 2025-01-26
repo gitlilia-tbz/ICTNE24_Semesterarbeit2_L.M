@@ -101,10 +101,12 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Mehr auf meine Dozenten zugehen (Rat und Feedback einholen) und mehr Sprint-Gespräche Nutzen
 - Mehr Zusammenarbeit mit meinen Klassenkameraden organisieren
 
-## :green_book: - Ist gewährleistet, dass gewonnene Erkenntnisse in neuen Aufgaben berücksichtigt oder aufgedeckte Mängel berücksichtigt werden?
+## :green_book: - Wie kann ich meine Erkenntnisse in neuen Aufgaben oder in aufgedeckten Mängel berücksichtigen?
 
-### :green_book: - Was von meinen früheren Vorsätzen konnte ich umsetzen?
-
+- Über die Probleme und dessen Lösungswege reflektieren. (Notizen führen, sorgfältig durch die Risiken durchgehen und diese Schritt für Schritt analysieren)
+- Durch die gewonnene Erfahrung während dieses Projektes zukünftig die Risiken intrinsisch besser einschätzen
+- Neu-Kennengelernte Technische Hilfsmittel für zukünftige Arbeiten einsetzten
+- Durch realistisch-definierte Zeitfenster Probleme analysieren, begutachten und innerhalb der Zeitfenster bearbeiten. Wenn Zeitfenster beendet werden, reflektieren, einschätzen und nächste Schritte einleiten.
 
 ## :green_book: - Was habe ich gelernt?
 
