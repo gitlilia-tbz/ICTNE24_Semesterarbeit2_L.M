@@ -2,6 +2,22 @@
 
 Das Zammad Docker-Compose File ist das grösste File in diesem Projekt.
 Für grundlegene Funktionalitäten sowie schnellere Suche innerhalb des Ticketsystems werden verschiedene Container dazuinstalliert.
+
+***Das Zammad-YAML setzt sieben Container auf:
+
+1. `zammad-postgresql`: Postgres 15.4 als Hauptdatenbank
+2. `zammad-elasticsearch`: Elasticsearch für Suchfunktionen
+3. `zammad-redis`: Redis für Caching
+4. `zammad-init`: Initialisiert die Zammad-Installation
+5. `zammad-railsserver`: Rails-Anwendungsserver
+6. `zammad-websocket`: WebSocket-Server für Echtzeitkommunikation
+7. `zammad-nginx`: Nginx als Webserver, erreichbar über Port 8083
+
+Alle Dienste nutzen das bestehende Zabbix-Netzwerk (`zabbix-net`) mit festen IPs. Daten werden in vier Volumes gespeichert. Die Container sind miteinander verknüpft und teilen Umgebungsvariablen für Datenbankzugriff und Service-Discovery.
+
+---
+
+
 - Elasticsearch dient zu effizienterer Suchfunktion innerhalb des Ticketsystems
 - Der Scheduler dient zur Kommunikation zu anderen Systemen, welche sich via API mit dem System austauschen. Ohne den Scheduler Funktioneren Automationen im Ticketsystem via API nicht. Jedoch ist das Ticketsystem auch ohne Scheduler funktionstüchtig.
 
@@ -321,3 +337,14 @@ volumes:
 ```
 
 ## 2. Setup von Zammad
+
+### 2.1 Initiales Setup des Ticketsystems
+
+Beim Setup habe ich lediglich den Initialen Namen für meine Organisation und einen User angelegt. -> Dies kann man individuell gestalten.
+Alles andere kann man überspringen-
+![](../_attachments/26_zammad_initial.png)
+
+### 2.2 Setup des Alerting via API-Webhook (Vollständige Anleitung)
+
+Technische Quelle:
+https://www.zabbix.com/de/integrations/zammad

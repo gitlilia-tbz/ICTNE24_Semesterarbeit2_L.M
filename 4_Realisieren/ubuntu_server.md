@@ -1,5 +1,15 @@
 ## 1. Beschreibung Ubuntu (Server Lilia GMBH) - Testkunde
 
+Das Ubuntu-Server-YAML konfiguriert einen einzelnen Zabbix-Agent-Container:
+
+- Basiert auf Zabbix-Agent 6.4 (Ubuntu)
+- Läuft auf Port 10055 (extern) / 10050 (intern)
+- Nutzt das bestehende Zabbix-Netzwerk mit IP 172.20.0.6
+- Debug-Level 4 für detaillierte Logs
+- Erlaubt aktives und passives Monitoring
+- Verbindet sich mit dem Zabbix-Server über Port 10051
+---
+
 Im Docker-Compose File des Ubuntu Server wird die Zugehörigkeit zum zabbix-net Netzwerk beschrieben. Zudem wird ein Zabbix-Agent installiert. Der Zabbix Agent dient zur Verbindung zum Zabbix Server.
 
 ```yaml

@@ -1,5 +1,19 @@
 ## 1. Beschreibung Zabbix
 
+Das Zabbix-YAML konfiguriert vier Hauptdienste:
+
+1. `mysql-server`: Datenbankserver für Zabbix mit UTF-8 Kodierung
+2. `zabbix-server`: Kernkomponente, verarbeitet Monitoring-Daten, kommuniziert über Port 10051
+3. `zabbix-web`: Webinterface mit Nginx, erreichbar über Port 8082
+4. `zabbix-agent`: Monitoring-Agent für den Zabbix-Server selbst, läuft auf Port 10050
+
+Alle Dienste sind im Netzwerk `zabbix-net` (172.20.0.0/16) mit festen IPs verbunden. Persistente Daten werden in Docker-Volumes gespeichert.
+
+Die Konfiguration verwendet Zabbix 7.0 mit Ubuntu-basierten Images und MySQL 8.0 als Datenbank.
+
+---
+
+
 Eines der wichtigsten Elemente im Compose-File der Zabbix installation ist die definition von **Networks.** Dabei wird das Netzwerk für die Docker-Umgebung definiert. 
 	    networks:
       zabbix-net:
@@ -204,3 +218,35 @@ volumes:
 ```
 
 ## 2. Setup von Zabbix
+
+### 2.1 Initiales Setup
+Der Server ist an sich bereits initialisiert.
+Im ersten Schritt muss man lediglich einen Benutzer hinzufügen
+![](../_attachments/25_zabbix_initial.png)
+### 2.2 Hinzufügen des Ubuntu Server Hosts und Trigger anpassen
+Da sich der Ubuntu Server im gleichen Netz befindet, hat Zabbix den Host automatisch gefunden.
+Ich musste danach lediglich den Host in eine Hostgruppe hinzufügen, damit der Host im Monitoring korrekt aufgelistet wird:
+
+(Wichtig dabei ist es den Hostnamen des Docker-Containers unter DNS Name hinzuzufügen)
+![](../_attachments/21_host_hinzufuegen.png)
+![](../_attachments/20_host_aufgelistet.png)
+
+Unter dem Trigger "Zabbix Agent not available", habe ich eine Priotität gesetzt, damit das Event die richtige Severity bei einem Timeout im System anzeigt
+![](../_attachments/23_trigger_anpassen.png)
+### 2.3 Einrichten des Alerting via API Webhook (Vollständige Anleitung)
+
+Technische Quelle (Ab Abschnitt Zabbix Webhook Configuration):
+https://www.zabbix.com/de/integrations/zammad
+
+Meine Mediatype-Konfiguration:
+![](../_attachments/27_media_type_config.png)
+
+
+Meine Action-Konfiguration:
+![](../_attachments/28_action.png)
+
+
+Meine User-Konfiguration:![](../_attachments/29_zabbix_user.png)
+
+Mein Globales Macro:
+![](../_attachments/30_macro.png)
