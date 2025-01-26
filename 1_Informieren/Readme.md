@@ -17,7 +17,8 @@ waren ebenfalls Bestandteil meiner Recherche.
 Zusammen mit Philipp Albrecht konnte ich eine erste Skizze der Struktur gestalten:
 ![](../_attachments/38_skizze_1.png)
 ![](../_attachments/39_skizze_2.png)
-Sehr grob, es handelt sich lediglich um Ideen-Sammlung :grin:
+
+*Sehr grob, es handelt sich lediglich um Ideen-Sammlung :grin: **
 
 
 Die Suchergebnisse:
