@@ -29,6 +29,9 @@ waren ebenfalls Bestandteil meiner Recherche.
 _____
 ### :scroll: 2. Prüfkriterien definieren
 
+| 🤖 Disclamer: Diese Grafik durch Claude-AI gestützt                        |
+| -------------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
 ![](../_attachments/3_ITSM_Grundlagen.png)
 

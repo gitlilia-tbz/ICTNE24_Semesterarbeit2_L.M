@@ -1,13 +1,10 @@
 Seusag / Netzwerkübersicht
 
-| 🤖 Disclamer: Diese Grafik durch Claude-AI gestützt                     |
-| ----------------------------------------------------------------------- |
-| [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
-
-```Mermaid
+| 🤖 Disclamer: Diese Grafik durch Claude-AI gestützt                        |
+| -------------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
 
 
-```
 ```mermaid
 graph TB
     subgraph Host[Local Machine]

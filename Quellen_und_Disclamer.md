@@ -20,10 +20,9 @@ ___
 ___
 
 🤖 Hilfsmittel und Assistenten
-- ChatGPT https://openai.com/index/hello-gpt-4o/
-- Claude https://claude.ai/new
-- Gemini https://gemini.google.com/app?hl=de
-- DeepSeek https://www.deepseek.com/
+- Claude https://claude.ai/new -> Docker-Compose Files und Troubleshooting
+- Gemini https://gemini.google.com/app?hl=de -> Allgemeine Fragen zu Docker-Funktionalitäten
+- DeepSeek https://www.deepseek.com/ -> Connectivity-Troubleshooting
 ___
 :notebook: Dokumentation
 
@@ -31,7 +30,33 @@ ___
 - GitHub https://github.com/gitlilia-tbz/ICTNE24_Semesterarbeit2_L.M
 - OneNote [Semesterarbeit_2](onenote:https://tbzedu-my.sharepoint.com/personal/lilia_mechani_edu_tbz_ch/Documents/Semesterarbeit_2/Semesterarbeit_2/)  ([Webansicht](https://tbzedu-my.sharepoint.com/personal/lilia_mechani_edu_tbz_ch/_layouts/OneNote.aspx?id=%2Fpersonal%2Flilia_mechani_edu_tbz_ch%2FDocuments%2FSemesterarbeit_2%2FSemesterarbeit_2&end=()))
 ___
-:information_source: Disclaimer:
-Lorem ipsum dolor sit amet
+:whale2: Docker-Installationsquellen:
 
+Zabbix:
+- Server/Web/Agent: https://hub.docker.com/u/zabbix
+- MySQL: https://hub.docker.com/_/mysql
 
+Zammad:
+- Zammad: https://hub.docker.com/r/zammad/zammad-docker-compose
+- PostgreSQL: https://hub.docker.com/_/postgres
+- Elasticsearch: https://hub.docker.com/_/elasticsearch
+- Redis: https://hub.docker.com/_/redis
+
+Ubuntu Server:
+- Zabbix Agent (Ubuntu): https://hub.docker.com/r/zabbix/zabbix-agent
+----
+
+:information_source:🤖 KI-Disclaimer:
+
+:pushpin: ITSM Evaluation:
+Die ITSM-Evaluation wurde durch Claude AI Gestützt. Claude hat durch die Offiziellen Informationsquellen der einzelnen ITSM-Lösungen die Evaluation eingeschätzt. Die Evaluationskriterien wurden durch mich definiert.
+
+:pushpin: SEUSAG-Grafik:
+Die Mermaid SEUSAG-Grafik wurde von Claude AI in Mermaid durch meine Informationen über das Docker-Netzwerk verfasst
+
+:pushpin: ITIL-Prüfkriterien-Grafik:
+Die ITIL-Prüfkriterien-Grafik wurde durch Claude-AI gestaltet und mit meinen Prüfkriterien  (Allgemeine ITSM Kriterien nach ITIL v4 zusammengefasst) aufgebaut.
+
+:pushpin: Docker-Compose Files:
+Die Docker-Compose Files wurden mit Hilfe von Claude AI verfasst und korrigiert sowie repariert.
+Korrekturen von Adressen und Installationsquellen wurden durch mich durchgeführt.
