@@ -1,0 +1,96 @@
+version: '3.8'
+
+services:
+  mysql-server:
+    image: mysql:8.0-oracle
+    container_name: mysql-server
+    command: --character-set-server=utf8 --collation-server=utf8_bin --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: zabbix
+      MYSQL_USER: zabbix
+      MYSQL_PASSWORD: zabbix
+      MYSQL_ROOT_PASSWORD: root_pwd
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.2
+
+  zabbix-server:
+    image: zabbix/zabbix-server-mysql:7.0-ubuntu-latest
+    container_name: zabbix-server
+    environment:
+      DB_SERVER_HOST: mysql-server
+      MYSQL_DATABASE: zabbix
+      MYSQL_USER: zabbix
+      MYSQL_PASSWORD: zabbix
+      MYSQL_ROOT_PASSWORD: root_pwd
+      ZBX_STARTPOLLERS: "5"
+      ZBX_IPMIPOLLERS: "0"
+    volumes:
+      - zabbix-server-data:/var/lib/zabbix
+      - zabbix-server-conf:/etc/zabbix
+    ports:
+      - "10051:10051"
+    depends_on:
+      - mysql-server
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.3
+
+  zabbix-web:
+    image: zabbix/zabbix-web-nginx-mysql:7.0-ubuntu-latest
+    container_name: zabbix-web
+    environment:
+      ZBX_SERVER_HOST: zabbix-server
+      DB_SERVER_HOST: mysql-server
+      MYSQL_DATABASE: zabbix
+      MYSQL_USER: zabbix
+      MYSQL_PASSWORD: zabbix
+      MYSQL_ROOT_PASSWORD: root_pwd
+      PHP_TZ: America/New_York
+    ports:
+      - "8082:8080"
+    depends_on:
+      - mysql-server
+      - zabbix-server
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.4
+
+  zabbix-agent:
+    image: zabbix/zabbix-agent:7.0-ubuntu-latest
+    container_name: zabbix-agent
+    privileged: true
+    environment:
+      ZBX_HOSTNAME: "Zabbix server"
+      ZBX_SERVER_HOST: zabbix-server
+      ZBX_SERVER_PORT: 10051
+      ZBX_PASSIVE_ALLOW: true
+      ZBX_ACTIVE_ALLOW: true
+    ports:
+      - "10050:10050"
+    depends_on:
+      - zabbix-server
+    networks:
+      zabbix-net:
+        ipv4_address: 172.20.0.5
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+
+networks:
+  zabbix-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.1
+
+volumes:
+  mysql-data:
+    driver: local
+  zabbix-server-data:
+    driver: local
+  zabbix-server-conf:
+    driver: local
