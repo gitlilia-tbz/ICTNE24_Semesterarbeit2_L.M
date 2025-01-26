@@ -119,7 +119,8 @@ Die Container dürfen bei einem Erfolgreichen Resultat ihre Konfiguration nicht 
 
 
 Konfiguration sieht identisch aus wie vor dem Prozess:
-
+![[15_zabbix_persistent.png]]
+![[16_zammad_persistent.png]]
 
 :white_check_mark: Persistenz gewährleistet
 ____
@@ -136,6 +137,6 @@ Dieses Ticket beinhaltet Text welcher die nötigsten Informationen zum betroffen
 
 *Ticket von Zammad:
 ![](../_attachments/11_zammad_ticket_ok.png)
-
+![](../_attachments/17_ubuntu_server.png)
 :white_check_mark: Test: Erfolgreich!
 
