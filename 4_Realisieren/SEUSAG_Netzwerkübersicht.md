@@ -40,13 +40,16 @@ graph TB
     %% Main Service Connections
     zserver --> ubuntu
     zserver --> nginx
+    linkStyle 0,1 stroke:#000000
     
     %% Internal Zabbix Connections
     mysql --> zserver
     zserver --> zweb
     zserver --> zagent
+    linkStyle 2,3,4 stroke:#000000
     
     %% Internal Zammad Connections
     postgres & elastic & redis --> rails
     rails --> nginx
+    linkStyle 5,6,7,8 stroke:#000000
 ```
