@@ -1,13 +1,18 @@
 # Reflexion
 
-FRAGEN / CHECKLISTE 
 ## :green_book: - Was habe ich gerne gemacht und weshalb?
 
 - Da sich der neue Projektantrag als eine super Lernmöglichkeit für mich erwiesen hat, hat es mir grossen Spass bereitet mich in das Thema Docker und Containerisierung einzulesen, sowie viel über ITIL V4 und ITSM zu lernen. Meine ITIL-Zertifizierung hat sich als sehr hilfreich erwiesen, da ich mich sehr gut im ITIL-Framework zurechtfinden kann
 - Ich bin an mehreren Wochenenden zusammen mit paar Klassenkameraden in die Bibliothek gegangen, um an unseren Projekten zu arbeiten. Der gemeinsame Austausch mit meinen Klassenkameraden war hilfreich. Mir hat der gegenseitige Input gefallen. Ich konnte mich von den verschiedenen Projektarbeiten meiner Kollegen super inspirieren lassen
 - Die Zusammenarbeit mit Claude AI hat mir ebenfalls Spass bereitet. Es hat sich wie ein freundlicher Programmier-Partner angefühlt. Ich konnte äusserst viel über ITSM, zusätzliches über das ITIL-Framework, Docker und Docker-Compose lernen.
 - Mit hat das ITIL-Modul auch viel Freude bereitet. Die Kahoot Spiele und die Präsentationen über die verschiedenen Elemente des ITIL Framework haben mich für das Projekt optimal vorbereitet.
-## :green_book: - Was gelang mir gut, was weniger?
+## :green_book: - Was gelang mir gut?
+
+:thumbsup: Ich bin sehr Happy über die Umsetzung meines Projektes. mir geling das Zusammenspiel mit den verschiedenen Docker-Compose files sowie das aufsetzen meiner ITSM-Umgebung äusserst gut.
+Ich bin sehr zufrieden mit der Persistenz meiner Umgebung. Der simple Aufbau des Netzes sowie der Trigger zum Ticketsystem sind optimal. Man kann auf dem ersten Blick erkennen, welches System von der Downtime betroffen ist.
+
+Die Evaluation hat mir auch besonders gefallen. Ich bin vollumfänglich zufrieden mit der Zammad ITSM-Lösung und ich benutze Zammad sehr gerne. Bis zu diesem Projekt habe ich zum ersten Mal von Zammad erfahren.
+
 ## :green_book:- Worin liegen die Gründe?
 
 
