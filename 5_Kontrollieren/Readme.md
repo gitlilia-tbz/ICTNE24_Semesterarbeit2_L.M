@@ -108,15 +108,18 @@ Um die Persistenz vollständig auf ihre härte zu testen, werde ich die Konfigur
 Die Container dürfen bei einem Erfolgreichen Resultat ihre Konfiguration nicht verlieren:
 
 `docker compose down` von Zabbix:
+![](../_attachments/13_compose_down_zabbix.png)
+
+`docker compose down` des Lilia GMBH Ubuntu Server:
+![](../_attachments/12_compose_down_server.png)
 
 `docker compose down` von Zammad:
-
-`docker compose up` vom Zabbix:
-
-`docker compose up` von Zammad:
+![](../_attachments/14_compose_down_zammad.png)
 
 
-Konfiguration sieht identisch aus:
+
+Konfiguration sieht identisch aus wie vor dem Prozess:
+
 
 :white_check_mark: Persistenz gewährleistet
 ____
@@ -126,12 +129,13 @@ Um meine Umgebung zu testen, wird der Server via Docker heruntergefahren.
 
 Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgelöst werden durch den Zabbix / Zendesk Webhook.
 
-Dieses Ticket kann einen Text beinhalten welches die nötigsten Informationen zum betroffenen System beinhaltet um anhand den Informationen allfällig Troubleshooting betreiben kann.
+Dieses Ticket beinhaltet Text welcher die nötigsten Informationen zum betroffenen System beinhaltet damit man anhand den Informationen allfällig Troubleshooting betreiben kann.
 
-`docker compose down` des Lilia GMBH Ubuntu Server:
-Meldung von Zabbix:
-Ticket von Zammad:
+*Meldung von Zabbix:
+![](../_attachments/10_zabbix_sent_green.png)
 
+*Ticket von Zammad:
+![](../_attachments/11_zammad_ticket_ok.png)
 
 :white_check_mark: Test: Erfolgreich!
 
