@@ -10,7 +10,7 @@ graph TB
         subgraph Docker[Docker Engine]
             subgraph Network [Docker Network: 172.20.0.0/16]
                 subgraph Zabbix[Zabbix]
-                    style Zabbix fill:#ffcccc
+                    style Zabbix fill:#ffcccc,color:#000000
                     mysql[MySQL<br>172.20.0.2]
                     zserver[Zabbix Server<br>172.20.0.3<br>Port 10051]
                     zweb[Zabbix Web<br>172.20.0.4<br>Port 8082:8080]
@@ -18,12 +18,12 @@ graph TB
                 end
                 
                 subgraph Target[Monitoring Target]
-                    style Target fill:#ffe6cc
+                    style Target fill:#ffe6cc,color:#000000
                     ubuntu[Ubuntu Server<br>172.20.0.6<br>Port 10055:10050]
                 end
                 
                 subgraph Zammad[Zammad]
-                    style Zammad fill:#d6f5d6
+                    style Zammad fill:#d6f5d6,color:#000000
                     postgres[PostgreSQL<br>172.20.0.10]
                     elastic[Elasticsearch<br>172.20.0.11]
                     redis[Redis<br>172.20.0.12]
