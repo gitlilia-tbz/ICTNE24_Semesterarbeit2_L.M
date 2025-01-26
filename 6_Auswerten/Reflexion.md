@@ -29,11 +29,13 @@ Da sich OTRS und FREESCOUT sowieso nicht als optimale Lösungen erwiesen haben, 
 Um die Zabbix-Datenbankprobleme zu lösen habe ich Claude AI zur Hilfe gebeten.
 ![](../_attachments/31_database_error_1.png)
 ![](../_attachments/32_database_error_2.png)
+
 Ich lasse Claude erklären:
 
 | 🤖 Disclamer: Diese Antwort wurde durch Claude-AI gestützt                 |
 | -------------------------------------------------------------------------- |
 | [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
+
 Claude, wie haben wir die Datenbank-Probleme von Zabbix gelöst?
 Wir haben folgende Änderungen vorgenommen:
 
