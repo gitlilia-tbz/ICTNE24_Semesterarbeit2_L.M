@@ -23,7 +23,7 @@ mysql Datenbank: ok
 
 Aktivität des Zammad ITSM:
 
-![[../_attachments/4_zammad_ok.png]]
+![](../_attachments/4_zammad_ok.png)
 - Websocket: OK
 - nginx: OK
 - Scheduler: Aktiv
