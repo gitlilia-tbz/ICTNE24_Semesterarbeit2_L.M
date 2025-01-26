@@ -1,12 +1,12 @@
 # Reflexion
 
 FRAGEN / CHECKLISTE 
-### :green_book: - Was habe ich gerne gemacht und weshalb?
-### :green_book: - Was gelang mir gut, was weniger?
-### :green_book:- Worin liegen die Gründe?
+## :green_book: - Was habe ich gerne gemacht und weshalb?
+## :green_book: - Was gelang mir gut, was weniger?
+## :green_book:- Worin liegen die Gründe?
 
 
-### :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
+## :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
 
 #### :rotating_light: Problem 1: Häufige Datenbankfehler
 Einträge falsch / Spalten fehlten / Zeilen fehlteen
@@ -50,7 +50,7 @@ Docker Compose kaputt / Fehlende Kompatibilität mit Docker
 Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
 :white_check_mark: Habe alle Docker Compose Files mit Fixen IP's bestückt.
-### :green_book: - Welche Erkenntnisse ziehe ich daraus?
+## :green_book: - Welche Erkenntnisse ziehe ich daraus?
 - Regelmässige Pausen zu machen und den Kopf durchlüften
 - KI Taktisch einsetzen
 - Versionierung meiner Docker-Compose Files sowie mehrere Versionen abspeichern
@@ -61,7 +61,7 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Ausprobieren, ausprobieren und weiter ausprobieren.
 - Mit Frustration besser Umgehen
 
-### :green_book: - Sind alle Ziele erreicht worden?
+## :green_book: - Sind alle Ziele erreicht worden?
 | :checkered_flag: Ziele                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------- |
 | - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen  :white_check_mark:                               |
@@ -71,7 +71,7 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
 :white_check_mark: Ja, alle Ziele, die ich am Anfang des Projektes definiert habe, wurden in meinem Projekt erreicht.
 
-### :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt / Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
+## :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt / Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
 
 - Leider wurde mein erstes Projekt abgelehnt. Dies hat sich jedoch als riesige Lernmöglichkeit entpuppt. Dies hatte jedoch meinen Zeitplan etwas über Bord geworfen.
 - Ich bin in der Phase des 1. und 2. Sprint schwer und mühsam an Covid erkrankt. Ich hatte nicht meine übliche Denk- und Lernkapazität und es war eine grosse Challenge für mich, zu denken. Dies hat sich auch auf meine Arbeit im Betrieb ausgewirkt. Ich habe viel Zeit gebraucht, um mich vollständig zu erholen. Ich habe mich erst ab dem 3. Sprint fit gefühlt und habe auch die Mehrheit meiner Projektarbeit im 3. Sprint abgewickelt
@@ -79,7 +79,7 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Das verfassen der Dokumentation hat sich als Zeitaufwändiger erwiesen als ich ursprünglich eingeschätzt habe. Ich bin an mehreren Wochenenden dran gewesen um meine Dokumentation abzuschliessen. Dies hat viel Energie und Zeit beansprucht.
 
 
-### :green_book: - Warum bin ich mit meiner Leistung zufrieden / unzufrieden?
+## :green_book: - Warum bin ich mit meiner Leistung zufrieden / unzufrieden?
 
 :thumbsdown:
 
@@ -87,12 +87,12 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 ### - Was mache ich beim nächsten Auftrag anders / besser?
 
 
-### :green_book: - Ist gewährleistet, dass gewonnene Erkenntnisse in neuen Aufgaben berücksichtigt oder aufgedeckte Mängel berücksichtigt werden?
+## :green_book: - Ist gewährleistet, dass gewonnene Erkenntnisse in neuen Aufgaben berücksichtigt oder aufgedeckte Mängel berücksichtigt werden?
 
 ### :green_book: - Was von meinen früheren Vorsätzen konnte ich umsetzen?
 
 
-### :green_book: - Was habe ich gelernt?
+## :green_book: - Was habe ich gelernt?
 
 - Ich habe gelernt, wann ich ein Problem als lösbar einschätzen kann und wann es sinnvoll ist, von neu anzufangen. Dies ist mir speziell beim Erstellen der Docker-Compose Files aufgefallen sowie beim testen der Verschiedenen Monitoring und ITSM-Lösungen innerhalb vom Docker.
 - Ich habe gelernt, wann / wie und welche KI ich zu welchem Zeitpunkt oder Zweck benutzen kann.
