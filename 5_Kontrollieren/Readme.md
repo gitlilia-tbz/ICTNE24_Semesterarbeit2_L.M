@@ -137,6 +137,5 @@ Dieses Ticket beinhaltet Text welcher die nötigsten Informationen zum betroffen
 
 *Ticket von Zammad:
 ![](../_attachments/11_zammad_ticket_ok.png)
-![](../_attachments/17_ubuntu_server.png)
 :white_check_mark: Test: Erfolgreich!
 

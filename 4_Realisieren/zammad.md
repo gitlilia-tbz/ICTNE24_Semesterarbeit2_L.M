@@ -3,7 +3,7 @@
 Das Zammad Docker-Compose File ist das grösste File in diesem Projekt.
 Für grundlegene Funktionalitäten sowie schnellere Suche innerhalb des Ticketsystems werden verschiedene Container dazuinstalliert.
 
-***Das Zammad-YAML setzt sieben Container auf:
+Das Zammad-YAML setzt sieben Container auf:
 
 1. `zammad-postgresql`: Postgres 15.4 als Hauptdatenbank
 2. `zammad-elasticsearch`: Elasticsearch für Suchfunktionen
