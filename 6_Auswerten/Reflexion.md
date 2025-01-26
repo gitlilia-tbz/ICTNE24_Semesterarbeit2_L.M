@@ -114,3 +114,9 @@ Claude hat sich gemerkt, Chatgpt hingegen schneller vergessen. Gerne möchte ich
 Chatgpt hat zwar gezeigt, wie man auf ein Goal schiessen kann aber schnell mal vergessen, dass man ein gebrochenes Bein hat. Sogar bei über 150+ Zeilen Codebase hat Claude immer verstanden, um was es geht
 
 Claude hingegen hat das gebrochene Bein stehts mit einbezogen und mir mit einer verständlichen Erklärung gezeigt, wie ich mit meiner Situation trotzdem an mein Ziel komme und ein Goal schiessen kann. Claude hatte das Gespräch immer im Fokus und hat Kleinigkeiten nicht vergessen. Jedoch ist Kooperation immer nötig. Claude arbeitet mit ausführlichen und Detaillierten Anforderungen am besten.
+
+## :green_book: - Danksagung :blue_heart:
+
+- Ich möchte mich bei meinen Schulkameraden bedanken, die jeweils am Wochenende mit mir in die Bibliothek gegangen sind, um zusammen an unseren Projektarbeiten zu arbeiten.
+- Ich möchte mich bei meinen Dozenten an der TBZ bedanken (Philipp 1 und Philipp 2, Caesar und Corrado) welche mich bei meiner Projektarbeit beraten haben und zur Konzeption beigetragen haben
+- Zudem bei meiner Familie, welche mich mental während meiner Semesterarbeit unterstützt haben.
