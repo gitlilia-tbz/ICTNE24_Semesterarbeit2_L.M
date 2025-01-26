@@ -4,7 +4,7 @@
 | Testing der Umgebung                                                                          |
 ### :flashlight: 1. Kontrolle der folgenden Punkte:
 
-#### :wrench: Aktivität der Services
+### :wrench: Aktivität der Services
 
 Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren muss ich kontrollieren, ob alle Docker Aktiv sind und die einzelnen Services keine Error-Messages generieren:
 
@@ -38,7 +38,7 @@ Aktivität des Zammad ITSM:
 Zammad sowie Zabbix sind via WebGUI erreichbar
 ____
 
-#### :wrench: Connectivity
+### :wrench: Connectivity
 
 Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring den Zammad nginx sowie den Ubuntu Server anpingen.
 
@@ -57,7 +57,7 @@ Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix all
 
 ___
 
-#### :wrench: Persistenz
+### :wrench: Persistenz
 Zabbix:
 - ✓ Sicher - Alle Daten (MySQL, Server-Konfiguration, Server-Daten) werden in persistenten Volumes gespeichert
 ```yaml
@@ -121,7 +121,7 @@ Konfiguration sieht identisch aus:
 
 ____
 
-#### :wrench: Auslösen des Alarms
+### :wrench: Auslösen des Alarms
 Um meine Umgebung zu testen, wird der Server via Docker heruntergefahren.
 
 Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgelöst werden durch den Zabbix / Zendesk Webhook.
