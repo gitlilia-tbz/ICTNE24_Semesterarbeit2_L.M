@@ -1,12 +1,12 @@
 # Reflexion
 
 FRAGEN / CHECKLISTE 
-### - Was habe ich gerne gemacht und weshalb?
-### - Was gelang mir gut, was weniger?
-### - Worin liegen die Gründe?
+### :green_book: - Was habe ich gerne gemacht und weshalb?
+### :green_book: - Was gelang mir gut, was weniger?
+### :green_book:- Worin liegen die Gründe?
 
 
-### - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
+### :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
 
 #### :rotating_light: Problem 1: Häufige Datenbankfehler
 Einträge falsch / Spalten fehlten / Zeilen fehlteen
@@ -47,7 +47,7 @@ Docker Compose kaputt / Fehlende Kompatibilität mit Docker
 Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
 :white_check_mark:
-### - Welche Erkenntnisse ziehe ich daraus?
+### :green_book: - Welche Erkenntnisse ziehe ich daraus?
 - Regelmässige Pausen zu machen und den Kopf durchlüften
 - KI Taktisch einsetzen
 - Versionierung meiner Docker-Compose Files sowie mehrere Versionen abspeichern
@@ -58,24 +58,24 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Ausprobieren, ausprobieren und weiter ausprobieren.
 - Mit Frustration besser Umgehen
 
-### - Sind alle Ziele erreicht worden?
+### :green_book: - Sind alle Ziele erreicht worden?
 
 
 
-### - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt?
+### :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt?
 ### - Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
 
 
-### - Warum bin ich mit meiner Leistung zufrieden / unzufrieden?
+### :green_book: - Warum bin ich mit meiner Leistung zufrieden / unzufrieden?
 ### - Was mache ich beim nächsten Auftrag anders / besser?
 
 
-### - Ist gewährleistet, dass gewonnene Erkenntnisse in neuen Aufgaben berücksichtigt oder aufgedeckte Mängel berücksichtigt werden?
+### :green_book: - Ist gewährleistet, dass gewonnene Erkenntnisse in neuen Aufgaben berücksichtigt oder aufgedeckte Mängel berücksichtigt werden?
 
-### - Was von meinen früheren Vorsätzen konnte ich umsetzen?
+### :green_book: - Was von meinen früheren Vorsätzen konnte ich umsetzen?
 
 
-### - Was habe ich gelernt?
+### :green_book: - Was habe ich gelernt?
 
 - Ich habe gelernt, wann ich ein Problem als lösbar einschätzen kann und wann es sinnvoll ist, von neu anzufangen. Dies ist mir speziell beim Erstellen der Docker-Compose Files aufgefallen sowie beim testen der Verschiedenen Monitoring und ITSM-Lösungen innerhalb vom Docker.
 - Ich habe gelernt, wann / wie und welche KI ich zu welchem Zeitpunkt oder Zweck benutzen kann.
