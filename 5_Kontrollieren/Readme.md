@@ -8,20 +8,20 @@
 
 Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren muss ich kontrollieren, ob alle Docker Aktiv sind und die einzelnen Services keine Error-Messages generieren:
 
-Aktivität des Ubuntu Server (Monitoring Target):
+*Aktivität des Ubuntu Server (Monitoring Target):
 - Zabbix Agent OK
 ![](../_attachments/7_ubuntu_OK.png)
 
 
-Aktivität des Zabbix Monitoring:
+*Aktivität des Zabbix Monitoring:
 
 ![](../_attachments/5_zabbix_OK.png)
-nginx: OK
-Agent: OK
-Server: OK
-mysql Datenbank: ok
+- nginx: OK
+- Agent: OK
+- Server: OK
+- mysql Datenbank: ok
 
-Aktivität des Zammad ITSM:
+*Aktivität des Zammad ITSM:
 
 ![](../_attachments/4_zammad_ok.png)
 - Websocket: OK
@@ -35,7 +35,7 @@ Aktivität des Zammad ITSM:
 
 
 
-Zammad sowie Zabbix sind via WebGUI erreichbar
+:white_check_mark: Zammad sowie Zabbix sind via WebGUI erreichbar
 ____
 
 ### :wrench: Connectivity
@@ -54,7 +54,7 @@ Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring 
 ![](../_attachments/8_zabbix_zu_ubuntu.png)
 Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix alle Teilnehmer sieht.
 
-
+:white_check_mark: Connectivity steht
 ___
 
 ### :wrench: Persistenz
@@ -118,7 +118,7 @@ Die Container dürfen bei einem Erfolgreichen Resultat ihre Konfiguration nicht 
 
 Konfiguration sieht identisch aus:
 
-
+:white_check_mark: Persistenz gewährleistet
 ____
 
 ### :wrench: Auslösen des Alarms
@@ -133,5 +133,5 @@ Meldung von Zabbix:
 Ticket von Zammad:
 
 
-Test: Erfolgreich!
+:white_check_mark: Test: Erfolgreich!
 
