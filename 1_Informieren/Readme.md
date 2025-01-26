@@ -8,12 +8,19 @@
 
 Zuerst habe ich mich online über Ticket-System Lösungen informiert, welche self-hosting unterstützen und essentielle ITSM-Funktionen nach ITIL beinhalten.
 
-Die Kriterien
+Die Kriterien:
 - Monitoringkompatibilität und einfache Integration der Monitoring-Funktionalitäten
 - Self-Hosting und Orchestrierung (Dabei ist die Kompatibilität mit Docker-Compose wichtig) -> Klare Eingrenzung via SEUSAG
 - Kostenloser Zugriff / Freie Lizenz
 waren ebenfalls Bestandteil meiner Recherche.
 
+Zusammen mit Philipp Albrecht konnte ich eine erste Skizze der Struktur gestalten:
+![[38_skizze_1.png]]
+![[39_skizze_2.png]]
+Sehr grob, es handelt sich lediglich um Ideen-Sammlung :grin:
+
+
+Die Suchergebnisse:
 *Folgende Lösungen habe ich in den Google-Suchergebnissen gefunden sowie von Benutzerempfehlungen auf Reddit.com:
 
 | Potentielle Ticketsysteme aus meiner Online-Suche sind |
@@ -33,6 +40,7 @@ _____
 | -------------------------------------------------------------------------- |
 | [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
 - Die Prüfkriterien für die Evaluation habe ich aus dem ITIL v4 Framework ausgesucht.
+- Zudem war mir meine eigene ITIL-Zertifizierung sehr Hilfreich im Aufbau der Kriterien
 ![](../_attachments/3_ITSM_Grundlagen.png)
 
 Um eine präzisere Evaluation zu gewährleisten, habe ich innerhalb der Prüfkriterien, Kernkriterien hinzugefügt welche mit dem ITIL Framework korrelieren:
