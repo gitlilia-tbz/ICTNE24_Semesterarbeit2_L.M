@@ -93,7 +93,7 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
 :thumbsdown: Ich bin etwas unzufrieden weniger Feedback während dem Projekt eingeholt zu haben als bei meiner letzten Semesterarbeit. Aufgrund der speziellen Situation sowie persönlichen Umständen war mir das nicht möglich. Ich habe dennoch mein bestes gegeben und werde weiterhin mein bestes geben. Zudem hätte ich mir auch gewünscht, meine Dokumentation noch etwas zu erweitern um der Projektarbeit noch gerechter zu werden, dies war mir aber Kapazitätsgründen nicht mehr möglich. Wie bereits erwähnt, habe ich aber mein bestes gegeben.
 
- :thumbsup: Ich bin äusserst zufrieden mit der Lösung sowie dem Konzept. Es gibt mir ein gutes Gefühl mein ITSM wissen sowie mein neu gelerntes Wissen über Docker erfolgreich umgesetzt zu haben und meine technischen Ziele vollständig erfüllt zu haben.
+:thumbsup: Ich bin äusserst zufrieden mit der Lösung sowie dem Konzept. Es gibt mir ein gutes Gefühl mein ITSM wissen sowie mein neu gelerntes Wissen über Docker erfolgreich umgesetzt zu haben und meine technischen Ziele vollständig erfüllt zu haben.
  Die Umgebung läuft gut und flüssig. Alles ist erreichbar. Durch meine Arbeit habe ich mir eine Grundstein für zukünftige Semesterarbeiten bereitgestellt.
 ### - Was mache ich beim nächsten Auftrag anders / besser?
 - Bei einer allfälligen Ablehnung meiner Projektes, vorher einen Plan B bereithalten und / oder früher einen Ersatz konzipieren
