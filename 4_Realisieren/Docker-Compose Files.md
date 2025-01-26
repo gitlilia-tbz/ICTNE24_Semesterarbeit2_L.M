@@ -1,9 +1,9 @@
-# Realisation
+# Docker-Compose Files
 
 Technische Umsetzung:
 ## Docker-Composefiles
 
-Das System wird via Docker aufgesetzt. Die 3 Elemente des Monitoring (Zabbix Monitoring, Zammad ITSM und mein Testserver) werden via Docker-Compose Files aufgesetzt.
+Die 3 Elemente des Monitoring (Zabbix Monitoring, Zammad ITSM und mein Testserver) werden via Docker-Compose Files aufgesetzt.
 
 Schlussendlich soll die Struktur so aussehen:
 ******************************** BILD EINFÜGEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -288,26 +288,6 @@ Compose-Errors beseitigen
 ___
 	Die Docker Container werden via *docker compose up -d hochgefahren
 
-### Server OK
-- Zabbix Agent OK
-![](../_attachments/7_ubuntu_OK.png)
-
-### Monitoring OK
-![](../_attachments/5_zabbix_OK.png)
-nginx: OK
-Agent: OK
-Server: OK
-mysql Datenbank: ok
-### Ticketsystem: OK
-![[../_attachments/4_zammad_ok.png]]
-- Websocket: OK
-- nginx: OK
-- Scheduler: Aktiv
-- Zammad-Init: Complete
-- Railsserver: OK
-- Elasticsearch: OK
-- Redis: OK
-- Postgresql: OK
 
 ___
 ## Docker-Check
@@ -319,18 +299,6 @@ Monitoring Implementiert
 Ticketsystem Implementiert
 
 Test-Ubuntu-Server Implementiert
-___
-## Connectivity Check
-
-Ping Ubuntu -> Zabbix ![[../_attachments/6_ping_server_zu_zabbix.png]]
-
-Ping Zabbix->zammad
-
-Ping Zabbix->ubuntu
-
-Ping Zammad->Zabbix
-
-Ping Zammad->ubuntu
 ___
 ## Alerting via Webhook zu Zammad
 
