@@ -10,12 +10,12 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 
 Aktivität des Ubuntu Server (Monitoring Target):
 - Zabbix Agent OK
-![](7_ubuntu_OK.png)
+![](../_attachments/7_ubuntu_OK.png)
 
 
 Aktivität des Zabbix Monitoring:
 
-![](5_zabbix_OK.png)
+![](../_attachments/5_zabbix_OK.png)
 nginx: OK
 Agent: OK
 Server: OK
@@ -23,7 +23,7 @@ mysql Datenbank: ok
 
 Aktivität des Zammad ITSM:
 
-![[4_zammad_ok.png]]
+![[../_attachments/4_zammad_ok.png]]
 - Websocket: OK
 - nginx: OK
 - Scheduler: Aktiv
