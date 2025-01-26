@@ -17,9 +17,11 @@ ____
 :white_check_mark: Gegenmassname:
 Planung des Projektes in einzelne Arbeitsschritte / Arbeitspakete, Planung des Projektes via Gantt Diagramm und Checklisten erarbeiten.
 ___
-:triangular_flag_on_post: 4. Sicherung der Daten / Datenverlust
+:triangular_flag_on_post: 4. Sicherung der Daten / Datenverlust / Persistenz der Cloud-Umgebung
 
 :white_check_mark: Gegenmassname:
-Codebase-Backup im Github ablegen und Bilder zur Dokumentation im persönlichen OneDrive sichern.
-Dokumentation regelmässig im Github sichern.
+- Codebase-Backup im Github ablegen und Bilder zur Dokumentation im persönlichen OneDrive sichern.
+- Dokumentation regelmässig im Github sichern.
+- Files persistent schreiben. Beim Herunterfahren der Systeme darf kein Datenverlust stattfinden -> Daher Files persistent schreiben, das Volumes gesichert werden und Systeme bewusst herunterfahren ohne Volumes zu löschen
+	Docker-compose down anstatt Docker-compose down -v (-V löscht alle dazugehörigen Volumes)
 ____
