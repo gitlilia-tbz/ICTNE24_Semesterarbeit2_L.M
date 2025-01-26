@@ -45,10 +45,10 @@ Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring 
 
 Ping Zabbix->zammad nginx
 `docker exec -it zabbix-server ping zammad-nginx`
-
+![](../_attachments/9_zabbix_zu_zammad.png)
 Ping Zabbix->ubuntu server
 `docker exec -it zabbix-server ping ubuntu-server`
-
+![](../_attachments/8_zabbix_zu_ubuntu.png)
 Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix alle Teilnehmer sieht.
 
 
