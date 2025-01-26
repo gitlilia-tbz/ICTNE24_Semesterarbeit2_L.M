@@ -2,6 +2,7 @@
 | 🤖 Disclamer: Dieser Code wurde durch Claude-AI gestützt                |
 | ----------------------------------------------------------------------- |
 | [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
+
 Das Zammad Docker-Compose File ist das grösste File in diesem Projekt.
 Für grundlegene Funktionalitäten sowie schnellere Suche innerhalb des Ticketsystems werden verschiedene Container dazuinstalliert.
 
