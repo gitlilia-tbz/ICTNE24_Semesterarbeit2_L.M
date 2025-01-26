@@ -17,21 +17,21 @@ Trotz des Zeitdrucks habe ich eine vollumfängliche Lösung auf die Beine gestel
 
 ## :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
 
-#### :rotating_light: Problem 1: Häufige Datenbankfehler
+### :rotating_light: Problem 1: Häufige Datenbankfehler
 Einträge falsch / Spalten fehlten / Zeilen fehlteen
 
 :white_check_mark: Teils hatte ich bei den Tests mit OTRS / FREESOCUT und ZABBIX teils keine Verbindung zur eigenen Datenbank. Dies lag daran, das meine KI-Lösung inoffizielle Code-Quellen eingesetzt hat, oder schlichtweg die Datenbank-Initialisierung inkorrekt durchgeführt hat.
 
 Da sich OTRS und FREESCOUT sowieso nicht als optimale Lösungen erwiesen haben, ist es mit Zammad relativ einfach gewesen.
 
-#### :rotating_light: Problem 2: Falsche Version von Zabbix
+### :rotating_light: Problem 2: Falsche Version von Zabbix
 Version 6.0 nicht vollständig kompatibel mit Zammad / Anleitung stimmte nicht überein
 
 :white_check_mark: Ich habe relativ spät bemerkt, dass die Online-Anleitung von Zabbix eigentlich nur für Zabbix 7.0 geeignet war. Ich habe anschliessend ein Upgrade von Zabbix 6.0 zu Zabbix 7.0 durchgeführt und ein neues Docker-Compose File erstellt.
 
 Nach dem Upgrade hat meine Webhook-Integration funktioniert. 
 
-#### :rotating_light: Problem 3: Ticket Trigger Funktionalität
+### :rotating_light: Problem 3: Ticket Trigger Funktionalität
 Ticket Trigger hat mehrfach nicht funktioniert / Ticket konnte nicht generiert werden / Webhook Kaputt
 
 :white_check_mark: Dies lag im ersten Moment an der alten Version vom Zabbix.
@@ -46,16 +46,16 @@ Nach dem Upgrade hatte ich jedoch andere Probleme. Die Ursachen waren folgende:
 
 Nach Korrektur dieser Fehler hat mein Monitoring funktioniert und die Ticktes wurden sauber im Ticketsystem generiert.
 
-#### :rotating_light: Problem 4: Versehentliche Löschung der Zammad Volumes
+### :rotating_light: Problem 4: Versehentliche Löschung der Zammad Volumes
 Fehlerhafter Eingabe der `docker compose down -v` Befehls / Löschung meiner Daten
 
 :white_check_mark: Ich habe Zammad wieder neu Konfiguriert
-#### Problem 5: Mühsames Testing der ITSM Lösungen
+### Problem 5: Mühsames Testing der ITSM Lösungen
 Docker Compose kaputt / Fehlende Kompatibilität mit Docker
 
 :white_check_mark: Ich bin auf Zammad ausgewichen als ich realisiert habe das OTRS und FREESCOUT sich nicht für Docker eignen. Zammad war sowieso auch der Gewinner meiner Evaluation.
 
-#### :rotating_light: Problem 6: Verlust von Connectivity
+### :rotating_light: Problem 6: Verlust von Connectivity
 Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 
 :white_check_mark: Habe alle Docker Compose Files mit Fixen IP's bestückt.
