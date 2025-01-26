@@ -119,8 +119,8 @@ Die Container dürfen bei einem Erfolgreichen Resultat ihre Konfiguration nicht 
 
 
 Konfiguration sieht identisch aus wie vor dem Prozess:
-![[15_zabbix_persistent.png]]
-![[16_zammad_persistent.png]]
+![](../_attachments/15_zabbix_persistent.png)
+![](../_attachments/16_zammad_persistent.png)
 
 :white_check_mark: Persistenz gewährleistet
 ____
