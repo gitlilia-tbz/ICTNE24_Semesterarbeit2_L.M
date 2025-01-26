@@ -18,12 +18,43 @@ Trotz des Zeitdrucks habe ich eine vollumfängliche Lösung auf die Beine gestel
 ## :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
 
 ### :rotating_light: Problem 1: Häufige Datenbankfehler
-Einträge falsch / Spalten fehlten / Zeilen fehlteen
+Einträge falsch / Spalten fehlten / Zeilen fehlten / Zammad Scheduler Kaputt
 
 :white_check_mark: Teils hatte ich bei den Tests mit OTRS / FREESOCUT und ZABBIX teils keine Verbindung zur eigenen Datenbank. Dies lag daran, das meine KI-Lösung inoffizielle Code-Quellen eingesetzt hat, oder schlichtweg die Datenbank-Initialisierung inkorrekt durchgeführt hat.
 
 Da sich OTRS und FREESCOUT sowieso nicht als optimale Lösungen erwiesen haben, ist es mit Zammad relativ einfach gewesen.
 
+
+
+Um die Zabbix-Datenbankprobleme zu lösen habe ich Claude AI zur Hilfe gebeten.
+![](../_attachments/31_database_error_1.png)
+![](../_attachments/32_database_error_2.png)
+Ich lasse Claude erklären:
+
+| 🤖 Disclamer: Diese Antwort wurde durch Claude-AI gestützt                 |
+| -------------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
+Claude, wie haben wir die Datenbank-Probleme von Zabbix gelöst?
+Wir haben folgende Änderungen vorgenommen:
+
+1. Multi-Container statt Single-Container Setup
+2. PostgreSQL optimiert: Verbindungspools und Timeouts angepasst
+3. Zuverlässige Neustart-Richtlinien hinzugefügt
+4. Scheduler-Service mit eigener Datenbank-Konfiguration
+
+Das System ist jetzt stabil und kann Tickets aus Zabbix-Webhooks verarbeiten.
+
+
+---
+Der Zammad-Scheduler hatte ebenfalls Probleme. Ohne den Scheduler können keine automatischen Ticket-Prozesse stattfinden.
+Beim initialen Setup von Zammad hat der Scheduler häufig Fehlermeldungen ausgegeben und seinen eigenen Docker-Pool nicht erreicht:
+![](../_attachments/33_zammad_error.png)
+
+Ich konnte das Problem zusammen mit Claude-AI aufspüren und lösen:
+![](../_attachments/34_zammad_error_1.png)
+![](../_attachments/35_zammad_error_2.png)
+![](../_attachments/36_zammad_error_3.png)
+![](../_attachments/37_zammad_error_4.png)
 ### :rotating_light: Problem 2: Falsche Version von Zabbix
 Version 6.0 nicht vollständig kompatibel mit Zammad / Anleitung stimmte nicht überein
 

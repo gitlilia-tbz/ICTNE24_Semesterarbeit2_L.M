@@ -44,11 +44,3 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 | - [REALISIEREN](4_Realisieren/Readme.md)    | Umsetzung und Dokumentation, Arbeit nach Checkliste                                                       |
 | - [KONROLLIEREN](5_Kontrollieren/Readme.md) | Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung            |
 | - [AUSWERTEN](6_Auswerten/Readme.md)        | Reflexion und Fazit                                                                                       |
-## :link: Links / Verweise:
-
-[Codebase des Projektes].(Docker-Compose-Daten)
-
-[Quellen und Disclamer](./Quellen_und_Disclamer.md)
-[Reflexion](.Reflexion.md)
-[Sprint und Gantt](Sprint_und_GANTT.md)
-[Umsetzung mit IPERKA](./Umsetzung_und_IPERKA.md)
