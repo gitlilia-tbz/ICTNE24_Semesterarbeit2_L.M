@@ -5,7 +5,6 @@
 | Umsetzung und Dokumentation, Arbeit nach Checkliste                                                   |
 ### 1. Docker-Compose Files einrichten
 
-- Skizze Analysieren
 - Ordnerstruktur erstellen
 - Docker-Compose Files erstellen: Zammad, Zabbix und Ubuntu Test-Server (Lilia GMBH)
 

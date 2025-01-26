@@ -63,4 +63,5 @@ ____
 ### :wrench: 3. Sachmittel aussuchen
 
 Bei den Sachmittel für die Umsetzung habe ich mich an eine Cloud-Native Lösung Orientiert. Dabei habe ich mir **Docker** ausgesucht, da Docker während unserer Weiterbildung im Modul zum Cloud-Native Engineer eingesetzt wird und sich für ähnliche Aufträge innerhalb des Moduls als optimal bewährt hat.
+
 ______
