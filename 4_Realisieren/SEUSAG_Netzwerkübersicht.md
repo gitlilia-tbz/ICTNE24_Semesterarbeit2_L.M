@@ -1,5 +1,9 @@
 Seusag / Netzwerkübersicht
 
+| 🤖 Disclamer: Diese Grafik durch Claude-AI gestützt                     |
+| ----------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
+
 ```Mermaid
 
 

@@ -1,4 +1,7 @@
 ## 1. Beschreibung Ubuntu (Server Lilia GMBH) - Testkunde
+| 🤖 Disclamer: Dieser Code wurde durch Claude-AI gestützt                |
+| ----------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
 
 Das Ubuntu-Server-YAML konfiguriert einen einzelnen Zabbix-Agent-Container:
 
