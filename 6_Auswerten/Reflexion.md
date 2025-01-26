@@ -62,11 +62,11 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Mit Frustration besser Umgehen
 
 ### :green_book: - Sind alle Ziele erreicht worden?
-| :checkered_flag: Ziele                                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen :white_check_mark:                               |
-| - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein. :white_check_mark: |
-| - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden :white_check_mark:               |
+| :checkered_flag: Ziele                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------- |
+| - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen  :white_check_mark:                               |
+| - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  :white_check_mark: |
+| - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden :white_check_mark:                |
 
 
 :white_check_mark: Ja, alle Ziele, die ich am Anfang des Projektes definiert habe, wurden in meinem Projekt erreicht.
