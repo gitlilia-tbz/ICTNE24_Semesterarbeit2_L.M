@@ -57,12 +57,46 @@ ___
 #### - Persistenz
 Zabbix:
 - ✓ Sicher - Alle Daten (MySQL, Server-Konfiguration, Server-Daten) werden in persistenten Volumes gespeichert
+```yaml
+volumes:
+  - zabbix-server-data:/var/lib/zabbix
+  - zabbix-server-conf:/etc/zabbix
+
+volumes:
+  zabbix-server-data:
+    driver: local
+  zabbix-server-conf:
+    driver: local
+```
 
 Zammad:
 - ✓ Sicher - Alle kritischen Daten (PostgreSQL, Elasticsearch, Anwendungsdaten, Backups) nutzen persistente Volumes
+```yaml
+volumes:
+  - zammad-data:/opt/zammad
+  - zammad-backup:/var/tmp/zammad
+
+volumes:
+  postgres-data:
+  elasticsearch-data:
+  zammad-data:
+  zammad-backup:
+```
 
 Ubuntu Server:
-- ✓ Sicher - Keine persistenten Daten zu verlieren, nur Konfiguration in der Compose-Datei
+- ✓ Sicher - Keine persistenten Daten zu verlieren, nur Konfiguration in der Compose-Datei. Fixe IP-Adresse und MAC-Adresse definiert.
+```yaml
+
+    mac_address: 02:42:ac:14:00:06
+    
+# und fixe IP-Adresse
+
+    networks:
+
+      zabbix-net:
+
+        ipv4_address: 172.20.0.6
+```
 
 Die Volumes bleiben nach `docker compose down` erhalten. Sie werden jedoch gelöscht, wenn ich`docker compose down -v` verwende.
 
