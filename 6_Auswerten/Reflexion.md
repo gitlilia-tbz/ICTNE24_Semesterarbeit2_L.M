@@ -13,6 +13,7 @@ Ich bin sehr zufrieden mit der Persistenz meiner Umgebung. Der simple Aufbau des
 
 Die Evaluation hat mir auch besonders gefallen. Ich bin vollumfänglich zufrieden mit der Zammad ITSM-Lösung und ich benutze Zammad sehr gerne. Bis zu diesem Projekt habe ich zum ersten Mal von Zammad erfahren.
 
+Trotz des Zeitdrucks habe ich eine vollumfängliche Lösung auf die Beine gestellt. Dieses Projekt bietet auch die Gelegenheit, darauf aufzubauen. Dieses Projekt wäre ein guter Kandidat für zukünftige Projektarbeiten.
 ## :green_book:- Worin liegen die Gründe?
 
 
