@@ -2,6 +2,11 @@
 
 FRAGEN / CHECKLISTE 
 ## :green_book: - Was habe ich gerne gemacht und weshalb?
+
+- Da sich der neue Projektantrag als eine super Lernmöglichkeit für mich erwiesen hat, hat es mir grossen Spass bereitet mich in das Thema Docker und Containerisierung einzulesen, sowie viel über ITIL V4 und ITSM zu lernen. Meine ITIL-Zertifizierung hat sich als sehr hilfreich erwiesen, da ich mich sehr gut im ITIL-Framework zurechtfinden kann
+- Ich bin an mehreren Wochenenden zusammen mit paar Klassenkameraden in die Bibliothek gegangen, um an unseren Projekten zu arbeiten. Der gemeinsame Austausch mit meinen Klassenkameraden war hilfreich. Mir hat der gegenseitige Input gefallen. Ich konnte mich von den verschiedenen Projektarbeiten meiner Kollegen super inspirieren lassen
+- Die Zusammenarbeit mit Claude AI hat mir ebenfalls Spass bereitet. Es hat sich wie ein freundlicher Programmier-Partner angefühlt. Ich konnte äusserst viel über ITSM, zusätzliches über das ITIL-Framework, Docker und Docker-Compose lernen.
+- Mit hat das ITIL-Modul auch viel Freude bereitet. Die Kahoot Spiele und die Präsentationen über die verschiedenen Elemente des ITIL Framework haben mich für das Projekt optimal vorbereitet.
 ## :green_book: - Was gelang mir gut, was weniger?
 ## :green_book:- Worin liegen die Gründe?
 
