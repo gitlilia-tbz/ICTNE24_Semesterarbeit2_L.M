@@ -10,7 +10,9 @@ ____
 :triangular_flag_on_post: 2. Stabilität (Synchro zwischen Server und Agent) und Zuverlässigkeit der Alerting
 
 :white_check_mark: Gegenmassname:
-Service-Abdeckung innerhalb der Docker-Compose Files (Sicherstellen, das alle nötigen Services im Docker-Compose die richtigen Docker-Container bereitstellen) sowie System-Logs beobachten und ping-Tests zwischen Server und Agenten ausführen.
+- Service-Abdeckung innerhalb der Docker-Compose Files (Sicherstellen, das alle nötigen Services im Docker-Compose die richtigen Docker-Container bereitstellen) sowie System-Logs beobachten und ping-Tests zwischen Server und Agenten ausführen.
+- Fixe IP Adressierung im Netz und korrekte Port-Zuteilung
+- Persistente Docker Configuration
 ____
 :triangular_flag_on_post: 3. Zeiteinhaltung
 
