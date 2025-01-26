@@ -3,9 +3,9 @@
 Diese Evaluation stützt sich auf die Grundlegenden Elemente der ITIL V4 ITSM Struktur.
 ![](3_ITSM_Grundlagen.png)
 
-| 🤖 Disclamer: Diese Evaluation wurde durch Claude-AI gestützt           |
-| ----------------------------------------------------------------------- |
-| [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
+| 🤖 Disclamer: Diese Evaluation wurde durch Claude-AI gestützt              |
+| -------------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
 
 | System    | ITSM-Funktion              | Kernfunktionen                              | Level         |
 | --------- | -------------------------- | ------------------------------------------- | ------------- |

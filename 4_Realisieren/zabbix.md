@@ -1,8 +1,8 @@
 ## 1. Beschreibung Zabbix
 
-| 🤖 Disclamer: Dieser Code wurde durch Claude-AI gestützt                |
-| ----------------------------------------------------------------------- |
-| [Siehe diesen Link für weitere Informationen](Quellen_und_Disclamer.md) |
+| 🤖 Disclamer: Dieser Code wurde durch Claude-AI gestützt                   |
+| -------------------------------------------------------------------------- |
+| [Siehe diesen Link für weitere Informationen](../Quellen_und_Disclamer.md) |
 
 Das Zabbix-YAML konfiguriert vier Hauptdienste:
 
