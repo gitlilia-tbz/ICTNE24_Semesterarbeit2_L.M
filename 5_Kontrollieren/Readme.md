@@ -10,12 +10,12 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 
 *Aktivität des Ubuntu Server (Monitoring Target):
 - Zabbix Agent OK
-![](../_attachments/7_ubuntu_OK.png)
+![](7_ubuntu_OK.png)
 
 
 *Aktivität des Zabbix Monitoring:
 
-![](../_attachments/5_zabbix_OK.png)
+![](5_zabbix_OK.png)
 - nginx: OK -> WEBGUI ERREICHBAR
 - Agent: OK
 - Server: OK
@@ -23,7 +23,7 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 
 *Aktivität des Zammad ITSM:
 
-![](../_attachments/4_zammad_ok.png)
+![](4_zammad_ok.png)
 - Websocket: OK
 - nginx: OK -> WEBGUI ERREICHBAR
 - Scheduler: Aktiv
@@ -45,13 +45,13 @@ Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring 
 **Ping Zabbix->zammad nginx
 `docker exec -it zabbix-server ping zammad-nginx`
 
-![](../_attachments/9_zabbix_zu_zammad.png)
+![](9_zabbix_zu_zammad.png)
 
 
 **Ping Zabbix->ubuntu server
 `docker exec -it zabbix-server ping ubuntu-server`
 
-![](../_attachments/8_zabbix_zu_ubuntu.png)
+![](8_zabbix_zu_ubuntu.png)
 Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix alle Teilnehmer sieht.
 
 :white_check_mark: Connectivity steht
@@ -108,19 +108,19 @@ Um die Persistenz vollständig auf ihre härte zu testen, werde ich die Konfigur
 Die Container dürfen bei einem Erfolgreichen Resultat ihre Konfiguration nicht verlieren:
 
 `docker compose down` von Zabbix:
-![](../_attachments/13_compose_down_zabbix.png)
+![](13_compose_down_zabbix.png)
 
 `docker compose down` des Lilia GMBH Ubuntu Server:
-![](../_attachments/12_compose_down_server.png)
+![](12_compose_down_server.png)
 
 `docker compose down` von Zammad:
-![](../_attachments/14_compose_down_zammad.png)
+![](14_compose_down_zammad.png)
 
 
 
 Konfiguration sieht identisch aus wie vor dem Prozess:
-![](../_attachments/15_zabbix_persistent.png)
-![](../_attachments/16_zammad_persistent.png)
+![](15_zabbix_persistent.png)
+![](16_zammad_persistent.png)
 
 :white_check_mark: Persistenz gewährleistet
 ____
@@ -133,9 +133,9 @@ Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgel�
 Dieses Ticket beinhaltet Text welcher die nötigsten Informationen zum betroffenen System beinhaltet damit man anhand den Informationen allfällig Troubleshooting betreiben kann.
 
 *Meldung von Zabbix innerhalb des WEBGUI:
-![](../_attachments/10_zabbix_sent_green.png)
+![](10_zabbix_sent_green.png)
 
 *Ticket von Zammad innerhalb der WEBGUI:
-![](../_attachments/11_zammad_ticket_ok.png)
+![](11_zammad_ticket_ok.png)
 :white_check_mark: Test: Erfolgreich!
 

@@ -42,7 +42,7 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 | - [PLANEN](2_Planen/Readme.md)              | Evaluation mit den Prüfkriterien aufbauen, Testing definieren, Risiken abschätzen sowie Zeitliche Planung |
 | - [ENTSCHEIDEN](3_Entscheiden/Readme.md)    | Evaluation anhand der Prüfkriterien durchführen, Lösungsvariante wählen                                   |
 | - [REALISIEREN](4_Realisieren/Readme.md)    | Umsetzung und Dokumentation, Arbeit nach Checkliste                                                       |
-| - [KONROLLIEREN](5_Kontrollieren/Readme.md) | Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung            |
+| - [KONROLLIEREN](Inhalt/5_Kontrollieren/Readme.md) | Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung            |
 | - [AUSWERTEN](6_Auswerten/Readme.md)        | Reflexion und Fazit                                                                                       |
 
 # Inhaltsverzeichnis
@@ -69,7 +69,7 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 
 [zammad](4_Realisieren/zammad.md)
 
-[5_KONROLLIEREN](5_Kontrollieren/Readme.md)
+[5\_KONROLLIEREN](Inhalt/5_Kontrollieren/Readme.md)
 
 [6_AUSWERTEN](6_Auswerten/Readme.md)
 
