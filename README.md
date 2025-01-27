@@ -53,21 +53,21 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 
 [ITSM Evaluation Ticketsysteme](2_Planen/ITSM_Evaluation_Ticketsysteme.md)
 
-[Risikodefinition]
+[Risikodefinition](2_Planen/Risikodefinition.md)
 
-[Sprint und Gantt]
+[Sprint und Gantt](2_Planen/Sprint_und_GANTT.md)
 
 [3_ENTSCHEIDEN](3_Entscheiden/Readme.md)
 
 [4_REALISIEREN](4_Realisieren/Readme.md)
 
-[SEUSAG und Netzwerkübersicht
+[SEUSAG und Netzwerkübersicht](4_Realisieren/SEUSAG_Netzwerkübersicht)
 
-[ubuntu server]
+[ubuntu server](4_Realisieren/ubuntu_server.md)
 
-[zabbix]
+[zabbix](4_Realisieren/zabbix.md)
 
-[zammad]
+[zammad](4_Realisieren/zammad.md)
 
 [5_KONROLLIEREN](5_Kontrollieren/Readme.md)
 
