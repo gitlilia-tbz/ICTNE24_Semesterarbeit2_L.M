@@ -37,7 +37,6 @@ Zusammen mit Philipp Albrecht konnte ich eine erste Skizze der Struktur gestalte
 ![](../_attachments/38_skizze_1.png)
 ![](../_attachments/39_skizze_2.png)
 
-Hierbei handelt sich lediglich um Ideen-Sammlung :grin: 
 
 ## Online-Suche
 Die Suchergebnisse:
