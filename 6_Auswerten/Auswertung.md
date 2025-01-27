@@ -6,7 +6,6 @@
 | - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen :white_check_mark:                                 |
 | - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.   :white_check_mark: |
 | - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden :white_check_mark:                 |
-|                                                                                                                            |
 
 - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen :white_check_mark:
 ![](../_attachments/41_auswertung_zammad.png)
@@ -14,6 +13,9 @@
 
 - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.   :white_check_mark:
 ![](../_attachments/46_auswertung_benutzer.png)
+
+- User zammad@liliagmbh ist der Ticket-Agent / Bot User , welcher den Ticket-Trigger verarbeitet.
+- User james@liliagmbh ist der allgemeine Administrator der Umgebung..
 (Alle Benutzerzugänge für die Kundensimulation sind separat in einem Passwortsafe abgelegt)
 
 ---
