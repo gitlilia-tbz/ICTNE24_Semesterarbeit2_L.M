@@ -31,7 +31,9 @@ Zusammen mit Philipp Albrecht konnte ich eine erste Skizze der Struktur gestalte
 	
 	--> API/Webhook Kommunikation
 - Wo müssen die benötigten Agents installiert werden? 
+	
 	--> Ubuntu Server
+	
 ![](../_attachments/38_skizze_1.png)
 ![](../_attachments/39_skizze_2.png)
 
