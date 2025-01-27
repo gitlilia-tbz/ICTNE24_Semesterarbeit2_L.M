@@ -10,12 +10,12 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 
 *Aktivität des Ubuntu Server (Monitoring Target):
 - Zabbix Agent OK
-![](7_ubuntu_OK.png)
+![](../_attachments/7_ubuntu_OK.png)
 
 
 *Aktivität des Zabbix Monitoring:
 
-![](5_zabbix_OK.png)
+![](../_attachments/5_zabbix_OK.png)
 - nginx: OK -> WEBGUI ERREICHBAR
 - Agent: OK
 - Server: OK
@@ -23,7 +23,7 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 
 *Aktivität des Zammad ITSM:
 
-![](4_zammad_ok.png)
+![](../_attachments/4_zammad_ok.png)
 - Websocket: OK
 - nginx: OK -> WEBGUI ERREICHBAR
 - Scheduler: Aktiv
