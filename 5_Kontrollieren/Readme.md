@@ -16,7 +16,7 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 *Aktivität des Zabbix Monitoring:
 
 ![](../_attachments/5_zabbix_OK.png)
-- nginx: OK
+- nginx: OK -> WEBGUI ERREICHBAR
 - Agent: OK
 - Server: OK
 - mysql Datenbank: ok
@@ -25,7 +25,7 @@ Damit ich sicherstellen kann, das alle Elemente des Monitoring funktionieren mus
 
 ![](../_attachments/4_zammad_ok.png)
 - Websocket: OK
-- nginx: OK
+- nginx: OK -> WEBGUI ERREICHBAR
 - Scheduler: Aktiv
 - Zammad-Init: Complete
 - Railsserver: OK
@@ -132,10 +132,10 @@ Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgel�
 
 Dieses Ticket beinhaltet Text welcher die nötigsten Informationen zum betroffenen System beinhaltet damit man anhand den Informationen allfällig Troubleshooting betreiben kann.
 
-*Meldung von Zabbix:
+*Meldung von Zabbix innerhalb des WEBGUI:
 ![](../_attachments/10_zabbix_sent_green.png)
 
-*Ticket von Zammad:
+*Ticket von Zammad innerhalb der WEBGUI:
 ![](../_attachments/11_zammad_ticket_ok.png)
 :white_check_mark: Test: Erfolgreich!
 

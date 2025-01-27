@@ -103,17 +103,6 @@ Vergessen, Fixe IP-Adressen zu setzen / Fixe MAC-Adresse für den Ubuntu Server
 - Ausprobieren, ausprobieren und weiter ausprobieren.
 - Mit Frustration besser Umgehen
 
-## :green_book: - Sind alle Ziele erreicht worden?
-| :checkered_flag: Ziele                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------- |
-| - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen  :white_check_mark:                               |
-| - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.  :white_check_mark: |
-| - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden :white_check_mark:                |
-|                                                                                                                           |
-
-
-:white_check_mark: Ja, alle Ziele, die ich am Anfang des Projektes definiert habe, wurden in meinem Projekt erreicht. Zudem konnte 3 anstatt wie in der Projektbeschreibung "mind. 2" ITSM Lösungen evaluieren.
-
 ## :green_book: - Wurden die Ressourcen, das Material, die Personen, die Zeit optimal eingesetzt / Sofern ich den Zeitplan nicht einhalten konnte, weshalb war dies nicht möglich / warum habe ich mich verschätzt?
 
 - Leider wurde mein erstes Projekt abgelehnt. Dies hat sich jedoch als riesige Lernmöglichkeit entpuppt. Dies hatte jedoch meinen Zeitplan etwas über Bord geworfen.

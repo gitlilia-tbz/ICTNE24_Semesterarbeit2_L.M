@@ -344,7 +344,7 @@ volumes:
 ### 2.1 Initiales Setup des Ticketsystems
 
 Beim Setup habe ich lediglich den Initialen Namen für meine Organisation und einen User angelegt. -> Dies kann man individuell gestalten.
-Alles andere kann man überspringen-
+Jegliche weitere Schritte sind nicht relevant und kann man überspringen
 ![](../_attachments/26_zammad_initial.png)
 
 ### 2.2 Setup des Alerting via API-Webhook (Vollständige Anleitung)
