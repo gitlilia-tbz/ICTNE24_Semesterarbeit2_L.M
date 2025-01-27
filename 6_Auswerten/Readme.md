@@ -3,4 +3,5 @@
 | ----------------------------------------------------------------------------------- |
 | Reflexion und Fazit                                                                 |
 [Reflexion](Reflexion.md)
+[Auswertung](Auswertung.md)
 ___
