@@ -2,10 +2,10 @@
 
 ## :green_book: - Was habe ich gerne gemacht und weshalb?
 
-- Da sich der neue Projektantrag als eine super Lernmöglichkeit für mich erwiesen hat, hat es mir grossen Spass bereitet mich in das Thema Docker und Containerisierung einzulesen, sowie viel über ITIL V4 und ITSM zu lernen. Meine ITIL-Zertifizierung hat sich als sehr hilfreich erwiesen, da ich mich sehr gut im ITIL-Framework zurechtfinden kann
-- Ich bin an mehreren Wochenenden zusammen mit paar Klassenkameraden in die Bibliothek gegangen, um an unseren Projekten zu arbeiten. Der gemeinsame Austausch mit meinen Klassenkameraden war hilfreich. Mir hat der gegenseitige Input gefallen. Ich konnte mich von den verschiedenen Projektarbeiten meiner Kollegen super inspirieren lassen
-- Die Zusammenarbeit mit Claude AI hat mir ebenfalls Spass bereitet. Es hat sich wie ein freundlicher Programmier-Partner angefühlt. Ich konnte äusserst viel über ITSM, zusätzliches über das ITIL-Framework, Docker und Docker-Compose lernen.
-- Mit hat das ITIL-Modul auch viel Freude bereitet. Die Kahoot Spiele und die Präsentationen über die verschiedenen Elemente des ITIL Framework haben mich für das Projekt optimal vorbereitet.
+- Mein Ursprüngliches Projekt wurde abgelehnt, da es sich nicht als eine genügend-anspruchsvolle Challenge für diese Projektarbeit ergeben hat. Da sich die neue Konzipierung des Projektantrags als eine super Lernmöglichkeit für mich erwiesen hat, hat es mir durch die verschiedenen Erfolgsergebnisse im Thema Docker und Containerisierung Spass bereitet. Zudem hat sich meine ITIL-Zertifizierung  als sehr hilfreich erwiesen, da ich mich sehr gut im ITIL-Framework zurechtfinden kann und mir die Evaluation umso intrinsischer und dadurch einfacher gefallen ist.
+- Ich bin an mehreren Wochenenden zusammen mit paar Klassenkameraden in die Bibliothek gegangen, um an unseren Projekten zu arbeiten. Der gemeinsame Austausch mit meinen Klassenkameraden war hilfreich und erfreulich, da wir durch die Lern-Atmosphäre einen Teamgeist gespürt haben, welcher mir viel Motivation und Durchhaltevermögen durch die Projektzeit gespendet hat.  Mir hat der gegenseitige Input gefallen, da ich Inspiration und weitere Gestaltungsmöglichkeiten für meine Projektarbeit ausarbeiten konnte.
+- Die Zusammenarbeit mit Claude AI hat mir ebenfalls ein Gefühl von Entwicklung und Interesse ausgelöst, da ich im Austausch mit Claude meine Wissenslücken im Themenbereich Docker ausgiebig schrumpfen konnte. Claude-AI hat sich für mich wie ein freundlicher Programmier-Partner angefühlt, da die Inputs mehrere Vorgehensweisen und allfällige Lösungswege vorgeschlagen haben. Des Weiteren hat sich die Kooperation mit Claude als wertvoll erwiesen, da ich über die Auswertung und Implementation sowie das initiale Setup von ITSM-Systemen eine für mich verständliche Vorgehensweise entwickeln konnte, welche sich in meiner Semesterarbeit widerspiegelt.
+- Auch hat das ITIL-Modul an sich viel Freude bereitet, da es mich auch auf Arbeitsprozesse in der echten Welt (Spezifisch im eigenen Betrieb) vorbereitet hat. Im gemeinsamen Austausch in der Klasse und in den Kahoot Spielen konnten wir verschiedene Aspekte rundum ITIL besprechen und gemeinsam verstehen. Dies hat mich auch für das Projekt gestärkt.
 ## :green_book: - Was gelang mir gut?
 
 :thumbsup: Ich bin sehr Happy über die Umsetzung meines Projektes. mir geling das Zusammenspiel mit den verschiedenen Docker-Compose files sowie das aufsetzen meiner ITSM-Umgebung äusserst gut.
@@ -15,7 +15,7 @@ Die Evaluation hat mir auch besonders gefallen. Ich bin vollumfänglich zufriede
 
 Trotz des Zeitdrucks habe ich eine vollumfängliche Lösung auf die Beine gestellt. Dieses Projekt bietet auch die Gelegenheit, darauf aufzubauen. Dieses Projekt wäre ein guter Kandidat für zukünftige Projektarbeiten.
 
-## :green_book: - Welche Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
+## :green_book: - Welche Technischen Schwierigkeiten / Probleme sind aufgetreten und was waren die Ursachen?
 
 ### :rotating_light: Problem 1: Häufige Datenbankfehler
 Einträge falsch / Spalten fehlten / Zeilen fehlten / Zammad Scheduler Kaputt
