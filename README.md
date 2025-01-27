@@ -69,7 +69,7 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 
 [zammad](4_Realisieren/zammad.md)
 
-[5\_KONTROLLIEREN](5_Kontrollieren/Readme.md)
+[5_KONTROLLIEREN](5_Kontrollieren/Readme.md)
 
 [6_AUSWERTEN](6_Auswerten/Readme.md)
 
