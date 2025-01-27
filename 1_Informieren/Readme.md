@@ -21,19 +21,17 @@ Zusammen mit Philipp Albrecht konnte ich eine erste Skizze der Struktur gestalte
 - Auf welchem Cloud-Framework soll die Lösung basieren?
 
 	--> Idealerweise nach iaC Philosophie im Docker. Ursprünglich war Hyper-V eine Idee, jedoch nicht Cloud-Ready.
-- 
 - Wie können wir es Cloud-Ready und persistent machen?
 	
 	--> Durch Docker-Compose Files und Persistenz innerhalb der Docker-Compose Files.
-- 
 - Wieviele Docker-Compose Files brauchen wir für die Lösung? 
 	
 	--> Ursprünglich war ein einziges Docker-Compose File die Idee. Dies wäre zu Complex. Ich habe sie in der Konzipierung auf 3 geteilt für einfachere Orchestrierung.
-- 
 - Wie arbeitet das Monitoring, der Testserver und das Ticketsystem zusammen? 
 	
 	--> API/Webhook Kommunikation
-- Wo müssen die benötigten Agents installiert werden? -> Ubuntu Server
+- Wo müssen die benötigten Agents installiert werden? 
+	--> Ubuntu Server
 ![](../_attachments/38_skizze_1.png)
 ![](../_attachments/39_skizze_2.png)
 
