@@ -45,13 +45,13 @@ Um die Connectivity in meinem Docker-Netzwerk zu testen, wird Zabbix Monitoring 
 **Ping Zabbix->zammad nginx
 `docker exec -it zabbix-server ping zammad-nginx`
 
-![](9_zabbix_zu_zammad.png)
+![](../_attachments/9_zabbix_zu_zammad.png)
 
 
 **Ping Zabbix->ubuntu server
 `docker exec -it zabbix-server ping ubuntu-server`
 
-![](8_zabbix_zu_ubuntu.png)
+![](../_attachments/8_zabbix_zu_ubuntu.png)
 Ping Tests von den anderen Mitgliedern nicht nötig. Wichtig ist, das Zabbix alle Teilnehmer sieht.
 
 :white_check_mark: Connectivity steht
@@ -108,19 +108,19 @@ Um die Persistenz vollständig auf ihre härte zu testen, werde ich die Konfigur
 Die Container dürfen bei einem Erfolgreichen Resultat ihre Konfiguration nicht verlieren:
 
 `docker compose down` von Zabbix:
-![](13_compose_down_zabbix.png)
+![](../_attachments/13_compose_down_zabbix.png)
 
 `docker compose down` des Lilia GMBH Ubuntu Server:
-![](12_compose_down_server.png)
+![](../_attachments/12_compose_down_server.png)
 
 `docker compose down` von Zammad:
-![](14_compose_down_zammad.png)
+![](../_attachments/14_compose_down_zammad.png)
 
 
 
 Konfiguration sieht identisch aus wie vor dem Prozess:
-![](15_zabbix_persistent.png)
-![](16_zammad_persistent.png)
+![](../_attachments/15_zabbix_persistent.png)
+![](../_attachments/16_zammad_persistent.png)
 
 :white_check_mark: Persistenz gewährleistet
 ____
@@ -133,9 +133,9 @@ Sobald der Server nicht mehr erreichbar ist, muss automatisch ein Ticket ausgel�
 Dieses Ticket beinhaltet Text welcher die nötigsten Informationen zum betroffenen System beinhaltet damit man anhand den Informationen allfällig Troubleshooting betreiben kann.
 
 *Meldung von Zabbix innerhalb des WEBGUI:
-![](10_zabbix_sent_green.png)
+![](../_attachments/10_zabbix_sent_green.png)
 
 *Ticket von Zammad innerhalb der WEBGUI:
-![](11_zammad_ticket_ok.png)
+![](../_attachments/11_zammad_ticket_ok.png)
 :white_check_mark: Test: Erfolgreich!
 
