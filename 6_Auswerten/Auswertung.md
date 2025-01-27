@@ -10,15 +10,19 @@
 
 - Das Ticketsystem erfolgreich implementieren und Betriebsbereit machen :white_check_mark:
 ![](../_attachments/41_auswertung_zammad.png)
+---
 
 - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.   :white_check_mark:
 ![](../_attachments/46_auswertung_benutzer.png)
 (Alle Benutzerzugänge für die Kundensimulation sind separat in einem Passwortsafe abgelegt)
 
+---
 
 - Bei Absturz des zu überwachenden Systems muss automatisch ein Ticket generiert werden :white_check_mark:
 ![](../_attachments/10_zabbix_sent_green.png)
 -> Ticket-Trigger via Webhook gesendet
+
+---
 
 ![](../_attachments/11_zammad_ticket_ok.png)
 -> Generiertes Ticket innerhalb Zammad
