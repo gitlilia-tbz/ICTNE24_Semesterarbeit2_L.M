@@ -12,7 +12,7 @@
 ![](../_attachments/41_auswertung_zammad.png)
 
 - Das Ticketsystem muss mit den definieren Benutzerzugängen für die Kundensimulation erreichbar sein.   :white_check_mark:
-![[46_auswertung_benutzer.png]] 
+![](../_attachments/46_auswertung_benutzer.png)
 (Alle Benutzerzugänge für die Kundensimulation sind separat in einem Passwortsafe abgelegt)
 
 
