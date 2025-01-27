@@ -73,19 +73,8 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 
 [6_AUSWERTEN](6_Auswerten/Readme.md)
 
-[Auswertung]
+[Auswertung](6_Auswerten/Auswertung.md)
 
-[Reflexion]
+[Reflexion](6_Auswerten/Reflexion.md)
 
----
-[Docker Environment]
-
-[Docker-Compose für Testserver]
-
-[Docker-Compose Zabbix]
-
-[Docker-Compose Zammd]
-
-[Quellen und Disclamer]
-
-[Bilder]
+[[Quellen_und_Disclamer]]
