@@ -44,3 +44,29 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 | - [REALISIEREN](4_Realisieren/Readme.md)    | Umsetzung und Dokumentation, Arbeit nach Checkliste                                                       |
 | - [KONROLLIEREN](5_Kontrollieren/Readme.md) | Entscheiden anhand der ITSM Evaluation sowie Testing via Docker-Compose innerhalb der Umgebung            |
 | - [AUSWERTEN](6_Auswerten/Readme.md)        | Reflexion und Fazit                                                                                       |
+
+# Inhaltsverzeichnis
+
+[1_INFORMIEREN](1_Informieren/Readme.md)
+[2_PLANEN](2_Planen/Readme.md)
+[ITSM Evaluation Ticketsysteme](2_Planen/ITSM_Evaluation_Ticketsysteme.md)
+[Risikodefinition]
+[Sprint und Gantt]
+[3_ENTSCHEIDEN](3_Entscheiden/Readme.md)
+[4_REALISIEREN](4_Realisieren/Readme.md)
+[SEUSAG und Netzwerkübersicht]
+[ubuntu server]
+[zabbix]
+[zammad]
+[5_KONROLLIEREN](5_Kontrollieren/Readme.md)
+[6_AUSWERTEN](6_Auswerten/Readme.md)
+[Auswertung]
+[Reflexion]
+
+---
+[Docker Environment]
+[Docker-Compose für Testserver]
+[Docker-Compose Zabbix]
+[Docker-Compose Zammd]
+[Quellen und Disclamer]
+[Bilder]
