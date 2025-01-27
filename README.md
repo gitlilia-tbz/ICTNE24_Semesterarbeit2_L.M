@@ -61,7 +61,7 @@ Das Projekts wird nach IPERKA unterteilt und Umgesetzt.
 
 [4_REALISIEREN](4_Realisieren/Readme.md)
 
-[SEUSAG und Netzwerkübersicht](4_Realisieren/SEUSAG_Netzwerkübersicht)
+ [SEUSAG / Netzwerkübersicht](4_Realisieren/SEUSAG_Netzwerkübersicht.md)
 
 [ubuntu server](4_Realisieren/ubuntu_server.md)
 
