@@ -33,15 +33,18 @@
 Docker-Container:
 
 - Zabbix Container:
+
 ![](../_attachments/42_auswertung_docker_zabbix.png)
 Alle Online und erreichbar :white_check_mark:
 
 
 - Zammad-Container:
+
 ![](../_attachments/43_auswertung_docker_zammad.png)
 Alle online und erreichbar, zammad-init ohne Fehler durchgeführt :white_check_mark:
 
 - Ubuntu-Container:
+
 ![](../_attachments/44_auswertung_docker_ubuntu_server.png)
 Ubuntu-Server mit Zabbix Agent aktiv. :white_check_mark:
 
